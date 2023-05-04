@@ -1620,5 +1620,5 @@ a { background-image: url(https://i.ibb.co/TH18ByS/link.gif); background-size: c
 .container_music audio { filter: brightness(0.2); }
 
 /* ТЕСТИРОВАНИЕ*/
-button.button_down:hover {
-background: #101010 !important; }
+.button_down:last-child {
+    background: #101010 !important; }
