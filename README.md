@@ -1,5 +1,4 @@
 # narendilfox.github.io
-<!DOCTYPE html>
 <html>
 <body style="display:;">
 <h1>*SLAP*</h1>
