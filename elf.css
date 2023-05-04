@@ -1618,3 +1618,80 @@ a { background-image: url(https://i.ibb.co/TH18ByS/link.gif); background-size: c
 .post_image a img:hover {  filter: none; transition: .75s !important; }
 /*контейнер аудио*/
 .container_music audio { filter: brightness(0.2); }
+
+/* ТЕСТИРОВАНИЕ*/
+/*MEDIA*/
+
+/*----1024----*/
+
+@media (max-width: 1024px) {
+.post_data {
+    display: block;
+}
+
+.additional_info .card-link {
+    margin-right: 20px;
+}
+.additional_info .card-link {
+    display: unset;
+} 
+}
+
+
+/*----SMART----*/
+
+@media (max-width: 280px),(max-width: 480px),(max-width: 768px) {
+.post_data p:first-child {
+    flex-grow: 0;
+}
+.post_data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.additional_info .card-link {
+    display: unset;
+    margin-right: 0px;
+}
+p.card-link.post_more {
+    margin-right: 5px;
+}
+
+.profile_comment_links {
+    letter-spacing: 3px;
+}
+
+.profile_comment_links *:hover {
+    text-decoration: unset;
+}
+
+/*размер авок в модалке лайков*/
+
+
+.like_user .photo {
+    height: 60px;
+}
+
+.like_user .photo img {
+    width: 60px;
+}
+
+.modal-body {
+    display: grid;
+}
+
+.button.delete_button {
+    order: 1;
+}
+
+.button.edit_button,.button.delete_button {
+    text-transform: capitalize;
+}
+
+.post_text.pl-3 img,div.profile_comment_body img {
+    cursor: zoom-in;
+}
+
+.top_header {
+    z-index: 999 !important;
+}
