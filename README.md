@@ -8,7 +8,7 @@
   <img alt="random" src="https://astralsnake.github.io/random.php">
   <img src="image/1.jpg">
   <style>
-    @import url("Ros_1_dis.css");
+    @import url("elf.css");
     @import url("Pixel_02.css");
     @import url("Mushroom.css");
     @import url("Blue_Yellow_03.css");
