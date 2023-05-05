@@ -1614,7 +1614,7 @@ a { background-image: url(https://i.ibb.co/TH18ByS/link.gif); background-size: c
 .blog_post_text {
    font-family: 'Alice', serif; }
 /*оранжевая полоса в мобилке*/
-.header-orange { background: rgb(17 17 17); color: #555555 !important; padding: 5px; font-family: 'Alice', serif; text-align: center; }
+.header-orange { background: rgb(17 17 17) !important; color: #555555 !important; padding: 5px; font-family: 'Alice', serif; text-align: center; }
 /*фильтр на авки*/
 .post_image a img {  filter: saturate(0.5) brightness(0.5) contrast(0.95); transition: .75s !important;  }
 .post_image a img:hover {  filter: none; transition: .75s !important; }
