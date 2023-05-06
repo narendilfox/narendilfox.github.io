@@ -1,0 +1,9 @@
+@media (max-width: 750px) {
+    div#smoothbox_container {display: none;} 
+    #righthome {width: 100% !important;}
+}
+
+@media (max-width: 400px) {
+    div#smoothbox_container {display: none;} 
+    #righthome {width: 100% !important;}
+}
