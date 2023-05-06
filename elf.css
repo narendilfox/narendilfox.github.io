@@ -1586,15 +1586,7 @@ div[id^="comment_"] > div > div:first-child > a > img:hover,
     filter: saturate(1) brightness(1) contrast(1) !important;
     transition: 1s;
 }
-/*скрытое левое меню*/
-.card.mt-3.blog_leftmenu{ height: 30px !important; overflow: hidden; transition: 0.5s; transition-delay: 1s;}
-.card.mt-3.blog_leftmenu:hover { height: 370px !important; transition: 0.5s;}
-/*подарки*/
-.card.blog_categories { height: 30px !important; overflow: hidden; transition: 0.5s; transition-delay: 1s;}
-.card.blog_categories:hover { height: 600px !important; transition: 0.5s;}
-/*поиск*/
-.blog_leftsearch{ height: 30px !important; overflow: hidden; transition: 0.5s; transition-delay: 1s;}
-.blog_leftsearch:hover { height: 100px !important; transition: 0.5s;}
+
 /* МОИ НАСТРОЙКИ*/
 .post_data a, p.card-link.post_views, .post_data, .profile_comment_links {
    font-family: 'Alice', serif;
