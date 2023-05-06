@@ -1616,9 +1616,8 @@ a { background-image: url(https://i.ibb.co/TH18ByS/link.gif); background-size: c
 .container_music audio { filter: brightness(0.2); }
 
 
-
 /*скрытое левое меню*/
-.card.mt-3.blog_leftmenu{ height: 30px !important; overflow: hidden; transition: 0.5s; transition-delay: 1s;}
+.card.mt-3.blog_leftmenu { height: 30px !important; overflow: hidden; transition: 0.5s; transition-delay: 1s;}
 .card.mt-3.blog_leftmenu:hover { height: 370px !important; transition: 0.5s;}
 /*подарки*/
 .card.blog_categories { height: 30px !important; overflow: hidden; transition: 0.5s; transition-delay: 1s;}
@@ -1626,5 +1625,4 @@ a { background-image: url(https://i.ibb.co/TH18ByS/link.gif); background-size: c
 /*поиск*/
 .blog_leftsearch{ height: 30px !important; overflow: hidden; transition: 0.5s; transition-delay: 1s;}
 .blog_leftsearch:hover { height: 100px !important; transition: 0.5s;}
-
-
+}
