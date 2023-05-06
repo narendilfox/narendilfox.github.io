@@ -678,7 +678,7 @@ input[name="blog_search"]:focus {
 /*П О С Т Ы*/
 
 #righthome {
-      width: 82.5% !important;/*так было раньше*/
+      width: 100% !important;/*так было раньше*/
     padding: 0 20px; padding: 0 20px !important;
 }
 
@@ -1602,3 +1602,4 @@ a { background-image: url(https://i.ibb.co/TH18ByS/link.gif); background-size: c
 .blog_leftsearch{ height: 30px !important; overflow: hidden; transition: 0.5s; transition-delay: 1s;}
 .blog_leftsearch:hover { height: 100px !important; transition: 0.5s;}
 }
+
