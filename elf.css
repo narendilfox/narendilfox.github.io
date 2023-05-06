@@ -433,7 +433,7 @@ img[src="./images/logo_new.png"] {
     border-radius: 0; border-radius: 0 !important;
 }
 .card.mt-3.blog_leftmenu, .blog_leftsearch, .card.blog_categories {
-    margin: 0 0 .5rem 0; margin: 0 0 1rem 0 !important;
+    margin: 0 0 .5rem 0; margin: 0 0 10px 0 !important;
 }
 .card-header {
     background-color: rgb(17,17,17);
