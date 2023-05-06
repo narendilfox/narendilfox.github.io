@@ -1565,13 +1565,13 @@ input[class="form-control"]:-ms-input-placeholder {color: rgb(75,75,75); color: 
 }
 
 @media (max-width: 750px) {
-    div#smoothbox_container {display: none;} 
-    #righthome {width: 100%;}
+    div#smoothbox_container {display: none; } 
+    #righthome { min-width: 100% !important; }
 }
 
 @media (max-width: 400px) {
     div#smoothbox_container {display: none;} 
-    #righthome {width: 100%;}
+    #righthome { min-width: 100% !important;}
 }
 
 /*Ч / Б _ И З О Б Р А Ж Е Н И Я*/
