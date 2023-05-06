@@ -1570,9 +1570,8 @@ input[class="form-control"]:-ms-input-placeholder {color: rgb(75,75,75); color: 
 }
 
 @media (max-width: 280px), (max-width: 480px), (max-width: 768px)
-div#righthome {
-    padding: 0;
-    min-width: 100% !important;
+div#righthome {  
+    width: 100% !important;
 }
 
 /*Ч / Б _ И З О Б Р А Ж Е Н И Я*/
