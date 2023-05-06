@@ -1,6 +1,6 @@
 @import url('https://AstralSnake.github.io/sticer.css');
 @import url('https://fonts.googleapis.com/css2?family=Alice&family=Bangers&display=swap');
-
+@import url('narendilfox.github.io/media.css');
 /*Ф О Н*/
 html {
     margin-bottom: 0px; margin-bottom: 0px !important;
@@ -1564,15 +1564,6 @@ input[class="form-control"]:-ms-input-placeholder {color: rgb(75,75,75); color: 
     .modal-dialog {margin: 1.75rem auto;}
 }
 
-@media (max-width: 750px) {
-    div#smoothbox_container {display: none;} 
-    #righthome {width: 100% !important;}
-}
-
-@media (max-width: 400px) {
-    div#smoothbox_container {display: none;} 
-    #righthome {width: 100% !important;}
-}
 /*Ч / Б _ И З О Б Р А Ж Е Н И Я*/
 div[id^="comment_"] > div > div:first-child > a > img /*аватары в комментариях*/ {
     filter: saturate(0.5) brightness(0.5) contrast(0.95) !important;
