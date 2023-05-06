@@ -1542,10 +1542,7 @@ input[class="form-control"]:-ms-input-placeholder {color: rgb(75,75,75); color: 
 }
 /*M E D I A*/
 
-@media (max-width: 280px), (max-width: 480px), (max-width: 768px)
-    #righthome {  
-        width: 100% !important; }
-}
+
 
 /*Ч / Б _ И З О Б Р А Ж Е Н И Я*/
 div[id^="comment_"] > div > div:first-child > a > img /*аватары в комментариях*/ {
