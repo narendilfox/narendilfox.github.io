@@ -1569,9 +1569,10 @@ input[class="form-control"]:-ms-input-placeholder {color: rgb(75,75,75); color: 
     #righthome { min-width: 100% !important; }
 }
 
-@media (max-width: 400px) {
-    div#smoothbox_container {display: none;} 
-    #righthome { min-width: 100% !important;}
+@media (max-width: 280px), (max-width: 480px), (max-width: 768px)
+div#righthome {
+    padding: 0;
+    min-width: 100% !important;
 }
 
 /*Ч / Б _ И З О Б Р А Ж Е Н И Я*/
