@@ -1541,8 +1541,35 @@ input[class="form-control"]:-ms-input-placeholder {color: rgb(75,75,75); color: 
     background-color: rgb(8,8,8);
 }
 /*M E D I A*/
+@media screen and (max-width: 1440px) {
+    #lefthome {width: 30% !important;}
+    #righthome {width: 70% !important;}
+}
+@media screen and (max-width: 1080px) {
+    #lefthome {width: 25% !important;}
+    #righthome {width: 85% !important;}
+}
+@media screen and (max-width: 1024px) {
+    #lefthome {padding: 50px 0 0 0; padding: 0 0 0 20px !important;}
+    .seBlogColumnRightPadding {padding: .5rem 10%;  padding: 1rem !important; border-left: none; border-left: 1px solid rgba(8,8,8,1) !important; border-right: none; border-right: 1px solid rgba(30,30,30,1) !important;}
+    #righthome {padding: 0 5px; padding: 0 20px !important;}
+}
+@media screen and (min-width: 1067px) {
+    #postcomment_form {width: calc(100% - 141px - .5rem);  width: calc(100% - 145px - 1rem) !important;}
+}
+@media (max-width: 991px) {
+    .top_mobile_menu a[href="./"]:before {font-size: 16px; top: 0;}
+}
+@media (min-width: 576px) {
+    .modal-dialog {margin: 1.75rem auto;}
+}
 
 @media (max-width: 750px) {
+    div#smoothbox_container {display: none;} 
+    #righthome {width: 100% !important;}
+}
+
+@media (max-width: 400px) {
     div#smoothbox_container {display: none;} 
     #righthome {width: 100% !important;}
 }
