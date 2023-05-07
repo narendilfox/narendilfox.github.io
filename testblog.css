@@ -50,7 +50,7 @@ input[type="text"], textarea {
     cursor: url(https://i.ibb.co/jhxVCh9/cursor-text.png), auto; cursor: url(https://i.ibb.co/jhxVCh9/cursor-text.png), auto !important;
 }
 /*H E A D E R*/
-div#smoothbox_container {
+/* div#smoothbox_container {
     background-color: rgb(12,12,12) !important;
     /*background-image: url(https://i.ibb.co/ssydt8v/asdf.jpg);*/
     /*другие фоны*/
@@ -121,6 +121,7 @@ div#smoothbox_container:hover:before, div#smoothbox_container:hover:after {
     transform: translate(0, 0) !important;
     transition: 1.25s !important;
 }
+*/
 /*Ш А П К А*/
 body .top_header, nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
     background-color: rgb(17,17,17); background-color: rgb(14,14,14) !important;
