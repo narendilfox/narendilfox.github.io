@@ -50,78 +50,7 @@ input[type="text"], textarea {
     cursor: url(https://i.ibb.co/jhxVCh9/cursor-text.png), auto; cursor: url(https://i.ibb.co/jhxVCh9/cursor-text.png), auto !important;
 }
 /*H E A D E R*/
-/* div#smoothbox_container {
-    background-color: rgb(12,12,12) !important;
-    /*background-image: url(https://i.ibb.co/ssydt8v/asdf.jpg);*/
-    /*другие фоны*/
-    /*background-image: url(https://i.ibb.co/ssydt8v/asdf.jpg)!important;*/
-     /*background-image: url(https://i.ibb.co/Mhwg0Vc/2-1.jpg)!important;*/
-    background-image: url(https://i.ibb.co/fSWBzkW/image.png)!important;
-    background-position: top center !important;
-    background-attachment: fixed !important;
-    background-repeat: no-repeat !important;
-    background-size: 100vw !important;
-   position: relative !important;
-    top: 0 !important;
-    left: 0 !important;
-    right: 0 !important;
-    height: 17.68vw !important;
-    overflow-y: hidden !important;
-    border-bottom: 1px solid rgb(30,30,30) !important;
-}
-div#smoothbox_container:before {
-    content: 'Это всё, что останется после меня' !important;
-   background-color: rgba(12,12,12,.5) !important;
-    color: rgb(55,55,55) !important;
-    font-size: .825vw !important;
-    text-align: center !important;
-    font-family: 'Alice', serif;
-    position: absolute !important;
-    top: 6vw !important;
-    left: 6vw !important;
-    right: 66vw !important;
-    width: auto !important;
-    padding: 10px !important; /*изначально 10*/
 
-   border-top-left-radius: 100% 15% !important;
-    border-top-right-radius: 100% 15% !important;
-    border-bottom-left-radius: 100% 15% !important;
-    border-bottom-right-radius: 100% 15% !important;
-
-    opacity: 0 !important;
-    transform: translate(0, 25px) !important;
-    transition: .75s !important;
-}
-
-div#smoothbox_container:after {
-    content: 'Elf' !important;
-    background-color: rgb(55,55,55) !important;
-background-color: #87491f !important;
-   background-image: url(https://i.ibb.co/TH18ByS/link.gif) !important;
-    background-size: cover !important;
-    color: transparent !important;
-    font-family: 'Bangers', cursive !important;
-    font-size: 2vw !important;
-    text-align: center !important;
-    letter-spacing: 2.5px !important;
-    -moz-background-clip: text !important;
-    -webkit-background-clip: text !important;
-    position: absolute !important;
-    top: 3vw !important;
-    left: 6vw !important;
-    right: 66vw !important;
-    width: auto !important;
-    opacity: 0 !important;
-    transform: translate(0, 25px) !important;
-    transition: .75s !important;
-}
-
-div#smoothbox_container:hover:before, div#smoothbox_container:hover:after {
-    opacity: 1 !important;
-    transform: translate(0, 0) !important;
-    transition: 1.25s !important;
-}
-*/
 /*Ш А П К А*/
 body .top_header, nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
     background-color: rgb(17,17,17); background-color: rgb(14,14,14) !important;
