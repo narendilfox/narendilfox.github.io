@@ -1,14 +1,1 @@
 @import url('https://AstralSnake.github.io/sticer.css');
-
-
-/*ЛОГО*/
-.top_header a[href="./"]:before, .top_mobile_menu a[href="./"]:before  { content: 'EXIT';  }
-.top_header img {opacity: 0;}
-.top_mobile_menu a img {opacity: 0;}
-/*ИКОНКИ МЕНЮ*/
-img.menu_icon2 { display: none;}
-
-/*оранжевая полоса в мобилке*/
-.header-orange { color: #555555 !important; padding: 5px; font-family: 'Alice', serif; text-align: center; }
-.show_menu.header-orange {
-    background: #1e1e1e !important; }
