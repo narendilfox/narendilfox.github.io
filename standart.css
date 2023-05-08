@@ -1,0 +1,57 @@
+@import url('https://AstralSnake.github.io/sticer.css');
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Bangers&display=swap');
+
+/*ЛОГО*/
+.top_header a[href="./"]:before, .top_mobile_menu a[href="./"]:before  { content: 'EXIT';  }
+.top_header img {opacity: 0;}
+.top_mobile_menu a img {opacity: 0;}
+/*ИКОНКИ МЕНЮ*/
+img.menu_icon2 { display: none;}
+
+/*оранжевая полоса в мобилке*/
+.header-orange { color: #555555 !important; padding: 5px; font-family: 'Alice', serif; text-align: center; }
+.show_menu.header-orange {
+    background: #1e1e1e !important; }
+/*скрытое левое меню*/
+.card.mt-3.blog_leftmenu { height: 29px !important; overflow: hidden; transition: 0.5s; transition-delay: 1s;}
+.card.mt-3.blog_leftmenu:hover { height: 370px !important; transition: 0.5s;}
+/*поиск*/
+.blog_leftsearch{ height: 30px !important; overflow: hidden; transition: 0.5s; transition-delay: 1s;}
+.blog_leftsearch:hover { height: 60px !important; transition: 0.5s;}
+}
+/*категории*/
+.card.blog_categories { height: 10px !important; overflow: hidden; transition: 0.5s; transition-delay: 1s;}
+.card.blog_categories:hover { height: auto !important; transition: 0.5s;}
+
+/*ШАПКА*/
+.top_header, nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu { background-color: rgb(14,14,14) !important; 
+ background-image: url(https://i.ibb.co/Zd7ntvr/image.png) !important;
+background-position: top left, bottom left, center !important;
+background-attachment: fixed!important;
+background-repeat: repeat-x, repeat-x, repeat!important; }
+.post_data a, p.card-link.post_views, .post_data, .profile_comment_links {
+   font-family: 'Alice', serif;
+    font-size: 17px;
+    background-image: url(https://i.ibb.co/TH18ByS/link.gif);
+    background-size: cover;
+    color: transparent !important;
+    -webkit-background-clip: text;}
+.top_header {background: #1a1a1a;
+box-shadow: 0 2px 9px rgba(0, 0, 0, .25);
+margin-bottom: 0px !important;
+margin-left: 0px !important;
+border-radius: 0px;
+border-style: solid;
+border-color:  #d9d9d9;
+border-width: 0px;
+box-shadow: 9px 9px 9px 9px rgba(0, 0, 0, .25);}
+.top_menu{background: #1a1a1a;}
+
+a.top_menu_item {
+    font-family: 'Alice', serif;
+    color: rgb(95,95,95);
+    color: rgb(75,75,75) !important;
+}
+/*левое меню*/
+.seBlogColumnRightPadding {
+border: none !important; }
