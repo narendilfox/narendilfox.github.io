@@ -12,17 +12,3 @@ img.menu_icon2 { display: none;}
 .header-orange { color: #555555 !important; padding: 5px; font-family: 'Alice', serif; text-align: center; }
 .show_menu.header-orange {
     background: #1e1e1e !important; }
-/*скрытое левое меню*/
-.card.mt-3.blog_leftmenu { height: 29px !important; overflow: hidden; transition: 0.5s; transition-delay: 1s;}
-.card.mt-3.blog_leftmenu:hover { height: 370px !important; transition: 0.5s;}
-/*поиск*/
-.blog_leftsearch{ height: 30px !important; overflow: hidden; transition: 0.5s; transition-delay: 1s;}
-.blog_leftsearch:hover { height: 60px !important; transition: 0.5s;}
-}
-/*категории*/
-.card.blog_categories { height: 10px !important; overflow: hidden; transition: 0.5s; transition-delay: 1s;}
-.card.blog_categories:hover { height: auto !important; transition: 0.5s;}
-
-/*левое меню*/
-.seBlogColumnRightPadding {
-border: none !important; }
