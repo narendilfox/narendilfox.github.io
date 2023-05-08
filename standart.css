@@ -29,13 +29,7 @@ img.menu_icon2 { display: none;}
 background-position: top left, bottom left, center !important;
 background-attachment: fixed!important;
 background-repeat: repeat-x, repeat-x, repeat!important; }
-.post_data a, p.card-link.post_views, .post_data, .profile_comment_links {
-   font-family: 'Alice', serif;
-    font-size: 17px;
-    background-image: url(https://i.ibb.co/TH18ByS/link.gif);
-    background-size: cover;
-    color: transparent !important;
-    -webkit-background-clip: text;}
+
 .top_header {background: #1a1a1a;
 box-shadow: 0 2px 9px rgba(0, 0, 0, .25);
 margin-bottom: 0px !important;
@@ -49,7 +43,6 @@ box-shadow: 9px 9px 9px 9px rgba(0, 0, 0, .25);}
 
 a.top_menu_item {
     font-family: 'Alice', serif;
-    color: rgb(95,95,95);
     color: rgb(75,75,75) !important;
 }
 /*левое меню*/
