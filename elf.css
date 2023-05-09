@@ -1541,7 +1541,7 @@ input[class="form-control"]:-ms-input-placeholder {color: rgb(75,75,75); color: 
     background-color: rgb(8,8,8);
 }
 /*M E D I A*/
-@media screen and (max-width: 1440px) {
+/*@media screen and (max-width: 1440px) {
     #lefthome {width: 30% !important;}
     #righthome {width: 70% !important;}
 }
@@ -1567,7 +1567,11 @@ input[class="form-control"]:-ms-input-placeholder {color: rgb(75,75,75); color: 
     div#smoothbox_container {display: none;}
     #lefthome {width: 30% !important;}
     #righthome {width: 70% !important;}
-}
+}*/
+@media (max-width: 750px) {
+    div#smoothbox_container {display: none;}
+    width: auto; }
+
 /*Ч / Б _ И З О Б Р А Ж Е Н И Я*/
 div[id^="comment_"] > div > div:first-child > a > img /*аватары в комментариях*/ {
     filter: saturate(0.5) brightness(0.5) contrast(0.95) !important;
