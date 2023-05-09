@@ -681,7 +681,10 @@ input[name="blog_search"]:focus {
       width: 100% !important;/* 82.5 так было раньше*/
     padding: 0 20px; padding: 0 20px !important;
 }
-
+@media (max-width: 280px), (max-width: 480px), (max-width: 768px)
+div#righthome {
+    width: 100%!important;
+}
 .card.mb-2.post_home {
     background-color: rgb(12,12,12);
     background-image: url(https://i.ibb.co/ZMGDRNx/post.png);
