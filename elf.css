@@ -681,6 +681,13 @@ input[name="blog_search"]:focus {
       width: 100% !important; /* 85.5*так было раньше*/
     padding: 0 20px; padding: 0 20px !important;
 }
+@media (max-width: 750px) {
+    div#smoothbox_container {display: none!important;
+}
+@media (max-width: 750px)
+#righthome {
+    width: 100% !important;
+}
 
 .card.mb-2.post_home {
     background-color: rgb(12,12,12);
