@@ -1570,7 +1570,7 @@ input[class="form-control"]:-ms-input-placeholder {color: rgb(75,75,75); color: 
 }*/
 @media (max-width: 750px) {
     div#smoothbox_container {display: none;}
-    width: auto; }
+    #righthome { width: auto; }
 
 /*Ч / Б _ И З О Б Р А Ж Е Н И Я*/
 div[id^="comment_"] > div > div:first-child > a > img /*аватары в комментариях*/ {
