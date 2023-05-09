@@ -1569,8 +1569,12 @@ input[class="form-control"]:-ms-input-placeholder {color: rgb(75,75,75); color: 
     #righthome {width: 70% !important;}
 }*/
 @media (max-width: 750px) {
-    div#smoothbox_container {display: none;}
-    #righthome { width: auto; }
+    div#smoothbox_container {display: none;
+}
+@media (max-width: 750px)
+#righthome {
+    width: 100% !important;
+}
 
 /*Ч / Б _ И З О Б Р А Ж Е Н И Я*/
 div[id^="comment_"] > div > div:first-child > a > img /*аватары в комментариях*/ {
