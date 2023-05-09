@@ -678,7 +678,7 @@ input[name="blog_search"]:focus {
 /*П О С Т Ы*/
 
 #righthome {
-      width: 82.5% !important;/*так было раньше*/
+      width: 100% !important; /* 85.5*так было раньше*/
     padding: 0 20px; padding: 0 20px !important;
 }
 
