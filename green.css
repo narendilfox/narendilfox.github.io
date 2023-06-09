@@ -523,7 +523,7 @@ li.p-1:hover {
     transition: .25s;
 }
 li.p-1:hover::marker {
-    color: rgb(95,95,95); color: rgb(75,75,75) !important;
+    color: rgb(75,75,75) !important;
 }
 li.p-1 a {
     padding: 0 5px 0 0;
@@ -531,7 +531,7 @@ li.p-1 a {
 }
 li.p-1 a:hover {
     padding: 0 0 0 5px;
-    color: rgb(115,115,115); color: rgb(95,95,95) !important;
+    color: rgb(255, 255, 255) !important;
     transition: .5s;
 }
 /*поиск*/
