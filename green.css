@@ -1477,7 +1477,7 @@ input[class="form-control"]:-ms-input-placeholder {color: rgb(75,75,75); color: 
 .post_data a, p.card-link.post_views, .post_data, .profile_comment_links {
    font-family: 'Alice', serif;
     font-size: 17px;
-    background-size: cover;}
+    background-size: cover; color: rgb(134, 134, 134) !important;}
 .post_data a, p.card-link.post_views, .post_data, .profile_comment_links { float: right; }
 [onclick^="more_menu"]:before { content: "⬧";  background-size: cover; }
 
