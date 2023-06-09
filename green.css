@@ -732,7 +732,7 @@ input[name="blog_search"]:focus {
 
 .card-title a:after {
     content: "";
-    background-color: rgba(115,115,115,.5); background-color: rgba(95,95,95,.5) !important;
+    background-color: rgba(115,115,115,.5); background-color: rgb(255, 255, 255) !important;
     position: absolute;
     min-width: 0;
     min-height: 1px;
@@ -1486,7 +1486,8 @@ input[class="form-control"]:-ms-input-placeholder {color: rgb(75,75,75); color: 
 .header-orange { color: rgb(64, 191, 128) !important; padding: 5px; font-family: 'Alice', serif; text-align: center; }
 .show_menu.header-orange {
     background: #1e1e1e !important; }
-
+.category {
+    color: rgb(134, 134, 134) !important; }
 
 /*скрытое левое меню*/
 .card.mt-3.blog_leftmenu { height: 30px !important; overflow: hidden; transition: 0.5s; transition-delay: 1s;}
