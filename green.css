@@ -116,11 +116,7 @@ div#smoothbox_container:hover:before, div#smoothbox_container:hover:after {
 }
 /*Ш А П К А*/
 body .top_header, nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
-    background-color: rgb(17,17,17); background-color: rgb(64, 191, 128) !important;
-    /*background-image:  url(https://i.ibb.co/HD8gbnz/top-header-1.png), url(https://i.ibb.co/rmcVXJh/top-header-2.png), url(https://i.ibb.co/Zd7ntvr/image.png) !important;*/
-    background-position: top left, bottom left, center; background-position: top left, bottom left, center !important;
-    background-attachment: scroll, scroll, fixed; background-attachment: scroll, scroll, fixed !important;
-    background-repeat: repeat-x, repeat-x, repeat; background-repeat: repeat-x, repeat-x, repeat !important;
+     background-color: rgb(64, 191, 128) !important;
     position: sticky; position:  sticky !important; /*изменено*/
     top: 0px;
     width: 100%;
