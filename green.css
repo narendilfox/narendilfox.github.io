@@ -21,7 +21,7 @@ img.photo {
     border: none; border: none !important;
 }
 a {
-    color: rgb(255, 255, 255) !important;
+    color: rgb(221, 221, 221) !important;
 }
 a:hover, .form-group > label:hover {
     text-decoration: none; text-decoration: none !important;
@@ -1488,8 +1488,8 @@ input[class="form-control"]:-ms-input-placeholder {color: rgb(75,75,75); color: 
 .show_menu.header-orange {
     background: #1e1e1e !important; }
 
-
-
+/*ЦИФРА КОММЕНТОВ*/
+a:visited {
 
 /*скрытое левое меню*/
 .card.mt-3.blog_leftmenu { height: 30px !important; overflow: hidden; transition: 0.5s; transition-delay: 1s;}
