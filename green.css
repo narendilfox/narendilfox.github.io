@@ -319,8 +319,8 @@ img[src="./images/logo_new.png"] {
     padding: 2px 4px; padding: 2px 4px !important;
 }
    .button_down:last-child {
-    background-color: transparent; background-color: transparent !important;
-    background-image: url(https://i.ibb.co/pyxSpwB/button-down.png); background-image: url(https://i.ibb.co/pyxSpwB/button-down.png) !important;
+    background-color: transparent !important;
+   /* background-image: url(https://i.ibb.co/pyxSpwB/button-down.png); background-image: url(https://i.ibb.co/pyxSpwB/button-down.png) !important; */
     background-position: 9px 0 !important;
     background-repeat: no-repeat !important;
     background-size: 30px !important;
