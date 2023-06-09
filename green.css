@@ -296,7 +296,7 @@ img[src="./images/logo_new.png"] {
 
 #newupdates {
    background-color: transparent;
-    background-image: url(https://i.ibb.co/X3prr7q/button-notify.png) !important;/*почта*/
+   /* background-image: url(https://i.ibb.co/X3prr7q/button-notify.png) !important;*/ /*почта*/
     background-position: 10px 9px; background-position: 9px 0 !important; /*9, 0*/
     background-repeat: no-repeat; background-repeat: no-repeat !important;
     background-size: 22px; background-size: 30px !important; /*30*/
@@ -313,8 +313,8 @@ img[src="./images/logo_new.png"] {
     opacity: 0;
 }
 #notify_total {
-    background-color: rgb(125,125,125); background-color: rgb(105,105,105) !important;
-    color: rgb(255, 255, 255);
+    background-color: rgb(221 221 221) !important;
+    color: rgb(134 134 134);
     margin-left: 2px !important;
     padding: 2px 4px; padding: 2px 4px !important;
 }
