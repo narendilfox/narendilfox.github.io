@@ -6,7 +6,7 @@ html {
     margin-bottom: 0px; margin-bottom: 0px !important;
 }
 body {
-    background-color: rgb(10,10,10); background-color: #f5f5f5 !important;
+    background-color: rgb(10,10,10); background-color: rgb(245, 245, 245)!important;
     background-position: center; background-position: center !important;
     background-attachment: fixed; background-attachment: fixed !important;
     background-repeat: repeat; background-repeat: repeat !important;
@@ -21,7 +21,7 @@ img.photo {
     border: none; border: none !important;
 }
 a {
-    color: #fff !important;
+    color: rgb(255, 255, 255) !important;
 }
 a:hover, .form-group > label:hover {
     text-decoration: none; text-decoration: none !important;
@@ -31,12 +31,12 @@ a:hover, .form-group > label:hover {
     box-shadow: none; box-shadow: none !important;
 }
 ::selection {
-    background-color: rgb(65,65,65); background-color: #39ac73 !important;
-    color: rgb(110,110,110); color: #fff !important;
+    background-color: rgb(65,65,65); background-color: rgb(57, 172, 115) !important;
+    color: rgb(110,110,110); color: rgb(255, 255, 255) !important;
 }
 ::-moz-selection {
-    background-color: rgb(65,65,65); background-color: #39ac73 !important;
-    color: rgb(110,110,110); color: #fff !important;
+    background-color: rgb(65,65,65); background-color: rgb(57, 172, 115) !important;
+    color: rgb(110,110,110); color: rgb(255, 255, 255) !important;
 }
     cursor: url(https://i.ibb.co/4W5JJBP/cursor-normal.png), auto; cursor: url(https://i.ibb.co/4W5JJBP/cursor-normal.png), auto !important;
 }
@@ -61,7 +61,7 @@ div#smoothbox_container {
     right: 0 !important;
     height: 17.68vw !important;
     overflow-y: hidden !important;
-    border-bottom: 1px solid #ddd !important;
+    border-bottom: 1px solid rgb(221, 221, 221) !important;
 }
 div#smoothbox_container:before {
     content: 'Это всё, что останется после меня' !important;
@@ -116,7 +116,7 @@ div#smoothbox_container:hover:before, div#smoothbox_container:hover:after {
 }
 /*Ш А П К А*/
 body .top_header, nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
-    background-color: rgb(17,17,17); background-color: #40bf80 !important;
+    background-color: rgb(17,17,17); background-color: rgb(64, 191, 128) !important;
     /*background-image:  url(https://i.ibb.co/HD8gbnz/top-header-1.png), url(https://i.ibb.co/rmcVXJh/top-header-2.png), url(https://i.ibb.co/Zd7ntvr/image.png) !important;*/
     background-position: top left, bottom left, center; background-position: top left, bottom left, center !important;
     background-attachment: scroll, scroll, fixed; background-attachment: scroll, scroll, fixed !important;
@@ -128,7 +128,7 @@ body .top_header, nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top
     border-top: none;
     border-left: none;
     border-right: none;
-    border-bottom: 1px solid rgb(40,40,40); border-bottom: 1px solid #ddd !important;
+    border-bottom: 1px solid rgb(40,40,40); border-bottom: 1px solid rgb(221, 221, 221) !important;
     box-shadow: none; box-shadow: none !important;
 }
 
@@ -144,7 +144,7 @@ body .top_header, nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top
 a.top_menu_item {
     font-family: 'Alice', serif;
     font-size: 14px; font-size: 14px !important;
-    color: rgb(95,95,95); color: #fff !important;
+    color: rgb(95,95,95); color: rgb(255, 255, 255) !important;
     position: relative;
     padding: 0 10px; padding: 0 5px !important;
     z-index: 0;
@@ -157,7 +157,7 @@ a.top_menu_item {
 border: none !important;
 }
 a.top_menu_item:after {
-    background-color: #40bf80;
+    background-color: rgb(64, 191, 128);
     content: "";
     position: absolute;
     min-width: 100%;
@@ -169,7 +169,7 @@ a.top_menu_item:after {
     z-index: -1;
 }
 .top_menu_link_container:hover > .top_menu_link > a.top_menu_item:after {
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     min-width: 100%;
     min-height: calc(100% + 5px);
 }
@@ -199,24 +199,24 @@ div.menu_dropdown {
     transition: .5s;
 border: none !important;
 }
-#mobile_menu > button.btn.btn-primary {  background-color: #40bf80;  color: #fff;  font-family: 'Alice', serif;  font-size: 14px; margin: 0; }
+#mobile_menu > button.btn.btn-primary {  background-color: rgb(64, 191, 128);  color: rgb(255, 255, 255);  font-family: 'Alice', serif;  font-size: 14px; margin: 0; }
 button.btn.btn-primary {  top: -3px;  position: relative; }
-button.btn.btn-primary:hover {background-color: #39ac73 !important; }
+button.btn.btn-primary:hover {background-color: rgb(57, 172, 115) !important; }
 #mobile_menu > button.btn.btn-primary:hover {
-    background-color: #40bf80;
+    background-color: rgb(64, 191, 128);
 }
 .menu_item_dropdown a, #mobile_menu > .btn-primary {
-    background-color: rgb(19,19,19); background-color: #fff !important;
+    background-color: rgb(19,19,19); background-color: rgb(255, 255, 255) !important;
     background-position: center;
     background-attachment: fixed;
     background-repeat: repeat;
     color: rgb(95,95,95); color: rgb(85,85,85) !important;
     margin: 5px 0; margin: 0 !important;
     padding: 4px 45px 6px 7px !important;
-  /*  border-top: 1px solid rgba(40, 40, 40, 0); border-top: 1px solid #ddd !important;*/
-    border-left: none; border-left: 1px solid #ddd !important;
-    border-right: none; border-right: 1px solid #ddd !important;
-  /*  border-bottom: 1px solid #ddd;*/
+  /*  border-top: 1px solid rgba(40, 40, 40, 0); border-top: 1px solid rgb(221, 221, 221) !important;*/
+    border-left: none; border-left: 1px solid rgb(221, 221, 221) !important;
+    border-right: none; border-right: 1px solid rgb(221, 221, 221) !important;
+  /*  border-bottom: 1px solid rgb(221, 221, 221);*/
 }
 .menu_item_dropdown:first-child > a {
     border-top: none !important;
@@ -226,18 +226,18 @@ padding: 4px 40px 4px 12px !important;
     margin: 0 0 2px 0 !important;
 }
 .menu_item_dropdown:last-child > a {
-    border-bottom: 1px solid #ddd !important;
+    border-bottom: 1px solid rgb(221, 221, 221) !important;
 }
 .menu_item_dropdown a:hover, #mobile_menu > .btn.btn-primary:hover {
-    background-color: rgb(19,19,19); background-color: #40bf80 !important;
+    background-color: rgb(19,19,19); background-color: rgb(64, 191, 128) !important;
     background-image: none; background-image: none !important;
-    color: rgb(115,115,115); color: #fff !important;
+    color: rgb(115,115,115); color: rgb(255, 255, 255) !important;
     margin: 2px 0 !important;
     padding: 2px 40px 4px 12px !important;
-    border-top: 1px solid rgb(45,45,45); border-top: 1px solid #ddd !important;
-    border-left: none; border-left: 1px solid #ddd !important;
-    border-right: none; border-right: 1px solid #ddd !important;
-    border-bottom: 1px solid #ddd;
+    border-top: 1px solid rgb(45,45,45); border-top: 1px solid rgb(221, 221, 221) !important;
+    border-left: none; border-left: 1px solid rgb(221, 221, 221) !important;
+    border-right: none; border-right: 1px solid rgb(221, 221, 221) !important;
+    border-bottom: 1px solid rgb(221, 221, 221);
     border-radius: 0; border-radius: 0 !important;
 }
 
@@ -248,7 +248,7 @@ img.menu_icon2, .result > img.icon {
     display: none;
 }
 #mobile_menu {
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     background-position: center;
     background-attachment: fixed;
     background-repeat: repeat;
@@ -273,7 +273,7 @@ img.menu_icon2, .result > img.icon {
 .top_header a[href="./"]:before, .top_mobile_menu a[href="./"]:before {
   content: 'EXIT..?';
     background-size: cover;
-   color: #fff !important;
+   color: rgb(255, 255, 255) !important;
 
     letter-spacing: 4px;
 font-weight: 1000;
@@ -318,7 +318,7 @@ img[src="./images/logo_new.png"] {
 }
 #notify_total {
     background-color: rgb(125,125,125); background-color: rgb(105,105,105) !important;
-    color: #fff;
+    color: rgb(255, 255, 255);
     margin-left: 2px !important;
     padding: 2px 4px; padding: 2px 4px !important;
 }
@@ -348,23 +348,23 @@ img[src="./images/logo_new.png"] {
 }
 
 .btn.btn-primary, .btn.btn-secondary, .btn.btn-success {
-    background-color: #40bf80 !important;
-    color: #fff !important;
+    background-color: rgb(64, 191, 128) !important;
+    color: rgb(255, 255, 255) !important;
     font-family: 'Alice', serif;
     font-size: 14px;
     padding: 4px 12px;
-    border-top: 1px solid rgb(40,40,40); border-top: 1px solid #ddd !important;
-    border-left: 1px solid rgb(40,40,40); border-left: 1px solid #ddd !important;
-    border-right: 1px solid rgb(8,8,8); border-right: 1px solid #ddd !important;
-    border-bottom: 1px solid rgb(8,8,8); border-bottom: 1px solid #ddd !important;
+    border-top: 1px solid rgb(40,40,40); border-top: 1px solid rgb(221, 221, 221) !important;
+    border-left: 1px solid rgb(40,40,40); border-left: 1px solid rgb(221, 221, 221) !important;
+    border-right: 1px solid rgb(8,8,8); border-right: 1px solid rgb(221, 221, 221) !important;
+    border-bottom: 1px solid rgb(8,8,8); border-bottom: 1px solid rgb(221, 221, 221) !important;
     border-radius: 0;
     transition: .5s;
 }
 .btn.btn-primary:hover, .btn.btn-secondary:hover, .btn.btn-success:hover {
     background-color: rgb(27,27,27); background-color: rgb(27,27,27) !important;
     color: rgb(110,110,110); color: rgb(105,105,105) !important;
-    border-top: 1px solid rgb(50,50,50); border-top: 1px solid #ddd !important;
-    border-left: 1px solid rgb(50,50,50); border-left: 1px solid #ddd !important;
+    border-top: 1px solid rgb(50,50,50); border-top: 1px solid rgb(221, 221, 221) !important;
+    border-left: 1px solid rgb(50,50,50); border-left: 1px solid rgb(221, 221, 221) !important;
     border-radius: .5rem;
     transition: .5s;
 }
@@ -373,20 +373,20 @@ img[src="./images/logo_new.png"] {
     background-color: rgb(17,17,17); background-color: rgb(17,17,17) !important;
     color: rgb(95,95,95); color: rgb(75,75,75) !important;
     text-shadow: none;
-    border-top: 1px solid rgb(40,40,40); border-top: 1px solid #ddd !important;
-    border-left: 1px solid rgb(40,40,40); border-left: 1px solid #ddd !important;
+    border-top: 1px solid rgb(40,40,40); border-top: 1px solid rgb(221, 221, 221) !important;
+    border-left: 1px solid rgb(40,40,40); border-left: 1px solid rgb(221, 221, 221) !important;
 }
 .modal-footer > button.btn.btn-secondary, .modal-footer > button.btn.btn-primary {
-    border-top: 1px solid rgb(50,50,50); border-top: 1px solid #ddd !important;
-    border-left: 1px solid rgb(50,50,50); border-left: 1px solid #ddd !important;
+    border-top: 1px solid rgb(50,50,50); border-top: 1px solid rgb(221, 221, 221) !important;
+    border-left: 1px solid rgb(50,50,50); border-left: 1px solid rgb(221, 221, 221) !important;
 }
 .modal-footer > button.btn.btn-secondary:hover, .modal-footer > button.btn.btn-primary:hover {
-    border-top: 1px solid rgb(60,60,60); border-top: 1px solid #ddd !important;
-    border-left: 1px solid rgb(60,60,60); border-left: 1px solid #ddd !important;
+    border-top: 1px solid rgb(60,60,60); border-top: 1px solid rgb(221, 221, 221) !important;
+    border-left: 1px solid rgb(60,60,60); border-left: 1px solid rgb(221, 221, 221) !important;
 }
 .modal-footer > button.btn.btn-secondary:active, .modal-footer > button.btn.btn-primary:active {
-    border-top: 1px solid rgb(50,50,50); border-top: 1px solid #ddd !important;
-    border-left: 1px solid rgb(50,50,50); border-left: 1px solid #ddd !important;
+    border-top: 1px solid rgb(50,50,50); border-top: 1px solid rgb(221, 221, 221) !important;
+    border-left: 1px solid rgb(50,50,50); border-left: 1px solid rgb(221, 221, 221) !important;
 }
 
 /*М Е Н Ю*/
@@ -397,13 +397,13 @@ img[src="./images/logo_new.png"] {
    /* left: 110px;*/ /*добавила сама*/
 }
 .seBlogColumnRightPadding  {
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     padding: .5rem;  padding: 1rem !important;
     overflow-x: hidden; overflow-x: hidden !important;
-    border-top: 1px solid rgb(40,40,40); border-top: 1px solid #ddd !important;
-    border-left: 1px solid rgb(8,8,8); border-left: 1px solid #ddd !important;
-    border-right: 1px solid rgb(40,40,40); border-right: 1px solid #ddd !important;
-    border-bottom: 1px solid rgb(8,8,8); border-bottom: 1px solid #ddd !important;
+    border-top: 1px solid rgb(40,40,40); border-top: 1px solid rgb(221, 221, 221) !important;
+    border-left: 1px solid rgb(8,8,8); border-left: 1px solid rgb(221, 221, 221) !important;
+    border-right: 1px solid rgb(40,40,40); border-right: 1px solid rgb(221, 221, 221) !important;
+    border-bottom: 1px solid rgb(8,8,8); border-bottom: 1px solid rgb(221, 221, 221) !important;
     border-radius: 0 !important;
 }
 .card.p-1, .card.mt-3.blog_leftmenu, .blog_leftsearch > .card, .card.blog_categories, .card.blog_gifts {
@@ -415,37 +415,37 @@ img[src="./images/logo_new.png"] {
     margin: 0 0 .5rem 0; margin: 0 0 10px 0 !important;
 }
 .card-header {
-    background-color: #40bf80;
+    background-color: rgb(64, 191, 128);
   /*  background-image: url(https://i.ibb.co/mtdrm8z/title.png);*/
     background-position: center;
     background-attachment: fixed;
     background-repeat: repeat;
-     color: #fff !important;
+     color: rgb(255, 255, 255) !important;
     padding: .25rem .5rem; padding: .25rem .5rem !important;
-    border-top: 1px solid rgb(40,40,40); border-top: 1px solid #ddd !important;
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-    border-bottom: 1px solid rgb #ddd;
+    border-top: 1px solid rgb(40,40,40); border-top: 1px solid rgb(221, 221, 221) !important;
+    border-left: 1px solid rgb(221, 221, 221);
+    border-right: 1px solid rgb(221, 221, 221);
+    border-bottom: 1px solid rgb rgb(221, 221, 221);
     border-radius: 0; border-radius: 0 !important;
 }
 .card.blog_gifts > .card-header a {
-     color: #fff !important;
+     color: rgb(255, 255, 255) !important;
     transition: .5s;
 }
 .card.blog_gifts > .card-header a:hover {
-    color: rgb(95,95,95); color: #ddd !important;
+    color: rgb(95,95,95); color: rgb(221, 221, 221) !important;
     transition: .5s;
 }
 .card-body, .gifts-list {
-    background-color: #f5f5f5 ;
+    background-color: rgb(245, 245, 245);
     background-position: center;
     background-attachment: fixed;
     background-repeat: repeat;
     padding: 1rem; padding: 1rem !important;
     border-top: none;
-    border-left:  1px solid #ddd;
-    border-right:  1px solid #ddd;
-    border-bottom: 1px solid #ddd;
+    border-left:  1px solid rgb(221, 221, 221);
+    border-right:  1px solid rgb(221, 221, 221);
+    border-bottom: 1px solid rgb(221, 221, 221);
 }
 .card-body a, .card-header a {
     color: rgb(95,95,95); color: rgb(75,75,75) !important;
@@ -499,26 +499,26 @@ li.p-1 {
     padding: 2px 5px; padding: 2px 5px !important;
     list-style-type: circle;
     list-style-position: inside; list-style-position: inside !important;
-    border-bottom: 1px dashed rgb(38,38,38); border-bottom: 1px dashed #ddd !important;
+    border-bottom: 1px dashed rgb(38,38,38); border-bottom: 1px dashed rgb(221, 221, 221) !important;
     transition: .25s;
 }
 
 li.p-1:first-child {
-    border-top: 1px dashed rgba(38,38,38,0); border-top: 1px dashed #ddd !important;
+    border-top: 1px dashed rgba(38,38,38,0); border-top: 1px dashed rgb(221, 221, 221) !important;
 }
 
 li.p-1:hover:first-child {
-    border-top: 1px dashed rgb(38,38,38); border-top: 1px dashed #ddd !important;
+    border-top: 1px dashed rgb(38,38,38); border-top: 1px dashed rgb(221, 221, 221) !important;
 }
 
 li.p-1:last-child {
-    border-bottom: 1px dashed rgba(38,38,38,0); border-bottom: 1px dashed #ddd !important;
+    border-bottom: 1px dashed rgba(38,38,38,0); border-bottom: 1px dashed rgb(221, 221, 221) !important;
 }
 li.p-1:hover:last-child {
-    border-bottom: 1px dashed rgb(38,38,38); border-bottom: 1px dashed #ddd !important;
+    border-bottom: 1px dashed rgb(38,38,38); border-bottom: 1px dashed rgb(221, 221, 221) !important;
 }
 li.p-1:hover {
-    background-color: #40bf80;
+    background-color: rgb(64, 191, 128);
     list-style-type: disc;
     transition: .25s;
 }
@@ -536,8 +536,8 @@ li.p-1 a:hover {
 }
 /*поиск*/
 input[name="blog_search"] {
-    background-color: #40bf80 !important;
-    color: #fff !important;
+    background-color: rgb(64, 191, 128) !important;
+    color: rgb(255, 255, 255) !important;
     width: 100%;
     padding: .25rem .5rem;
     border: none;
@@ -551,8 +551,8 @@ input[name="blog_search"]:-moz-placeholder {color: rgb(75,75,75); color: rgb(55,
 input[name="blog_search"]:-ms-input-placeholder {color: rgb(75,75,75); color: rgb(55,55,55) !important; text-transform: lowercase;}
     
 input[name="blog_search"]:focus {
-    background-color: #fff; background-color: #fff !important;
-    color: rgb(105,105,105); color: #40bf80 !important;
+    background-color: rgb(255, 255, 255); background-color: rgb(255, 255, 255) !important;
+    color: rgb(105,105,105); color: rgb(64, 191, 128) !important;
     border: none;
     border-radius: 0; 
     outline: none;
@@ -572,34 +572,34 @@ input[name="blog_search"]:focus {
     padding: 2px 5px; padding: 2px 5px !important;
     list-style-type: circle;
     list-style-position: inside; list-style-position: inside !important;
-    border-bottom: 1px dashed rgb(38,38,38); border-bottom: 1px dashed #ddd !important;
+    border-bottom: 1px dashed rgb(38,38,38); border-bottom: 1px dashed rgb(221, 221, 221) !important;
     transition: .25s;
 }
 
 .seBlogCategoryList li:first-child {
-    border-top: 1px dashed rgba(38,38,38,0); border-top: 1px dashed #ddd !important;
+    border-top: 1px dashed rgba(38,38,38,0); border-top: 1px dashed rgb(221, 221, 221) !important;
 }
 
 .seBlogCategoryList li:hover:first-child {
-    border-top: 1px dashed rgb(38,38,38); border-top: 1px dashed #ddd !important;
+    border-top: 1px dashed rgb(38,38,38); border-top: 1px dashed rgb(221, 221, 221) !important;
 }
 
 .seBlogCategoryList li:last-child {
-    border-bottom: 1px dashed rgba(38,38,38,0); border-bottom: 1px dashed #ddd !important;
+    border-bottom: 1px dashed rgba(38,38,38,0); border-bottom: 1px dashed rgb(221, 221, 221) !important;
 }
 
 .seBlogCategoryList li:hover:last-child {
-    border-bottom: 1px dashed rgb(38,38,38); border-bottom: 1px dashed #ddd !important;
+    border-bottom: 1px dashed rgb(38,38,38); border-bottom: 1px dashed rgb(221, 221, 221) !important;
 }
 
 .seBlogCategoryList li:hover {
-    background-color: #40bf80;
+    background-color: rgb(64, 191, 128);
     list-style-type: disc;
     transition: .25s;
 }
 
 .seBlogCategoryList li:hover::marker {
-    color: rgb(95,95,95); color: #40bf80 !important;
+    color: rgb(95,95,95); color: rgb(64, 191, 128) !important;
 }
 
 .seBlogCategoryList li a {
@@ -609,7 +609,7 @@ input[name="blog_search"]:focus {
 
 .seBlogCategoryList li a:hover {
     margin: 0 0 0 5px; margin: 0 0 0 5px !important;
-    color: rgb(115,115,115); color: #fff !important;
+    color: rgb(115,115,115); color: rgb(255, 255, 255) !important;
     transition: .5s;
 }
 
@@ -621,7 +621,7 @@ input[name="blog_search"]:focus {
 }
 
 .gifts-list > .p-1:hover a {
-    color: rgb(115,115,115); color: #40bf80 !important;
+    color: rgb(115,115,115); color: rgb(64, 191, 128) !important;
     transition: .75s;
 }
 
@@ -656,14 +656,14 @@ input[name="blog_search"]:focus {
     width: 100%!important;
 }
 .card.mb-2.post_home {
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     color: rgb(95,95,95); color: rgb(75,75,75) !important;
     margin: 40px 0 0 0; margin: 50px 0 0 0 !important;
     padding: .5rem; padding: 1rem !important;
-    border-top: 1px solid rgb(40,40,40); border-top: 1px solid #ddd !important;
-    border-left: 1px solid rgb(40,40,40); border-left: 1px solid #ddd !important;
-    border-right: 1px solid rgb(8,8,8); border-right: 1px solid #ddd !important;
-    border-bottom: 1px solid rgb(8,8,8); border-bottom: 1px solid #ddd !important;
+    border-top: 1px solid rgb(40,40,40); border-top: 1px solid rgb(221, 221, 221) !important;
+    border-left: 1px solid rgb(40,40,40); border-left: 1px solid rgb(221, 221, 221) !important;
+    border-right: 1px solid rgb(8,8,8); border-right: 1px solid rgb(221, 221, 221) !important;
+    border-bottom: 1px solid rgb(8,8,8); border-bottom: 1px solid rgb(221, 221, 221) !important;
     border-radius: 0;
 }
 
@@ -676,7 +676,7 @@ input[name="blog_search"]:focus {
 }
 
 .post_text.pl-3 blockquote {
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     background-position: center;
     background-attachment: fixed;
     background-repeat: repeat;
@@ -684,7 +684,7 @@ input[name="blog_search"]:focus {
     font-style: italic;
     font-size: 14px; font-size: 14px !important;
     padding: 0 0 0 1rem;
-    border: 1px solid #ddd !important;
+    border: 1px solid rgb(221, 221, 221) !important;
 }
 
 .post_text.pl-3 hr {
@@ -706,17 +706,17 @@ input[name="blog_search"]:focus {
 }
 
 .card-title {
-    background-color: #40bf80;
+    background-color: rgb(64, 191, 128);
     /*background-image: url(https://i.ibb.co/mtdrm8z/title.png);*/
     background-position: center;
     background-attachment: fixed;
     background-repeat: repeat;
     margin: 0 0 .5rem 0; margin: 0 0 .75rem 0 !important;
     padding: .25rem .5rem;
-    border-top: 1px solid rgb(40,40,40); border-top: 1px solid #ddd !important;
-    border-left: 1px solid rgb(40,40,40); border-left: 1px solid #ddd !important;
-    border-right: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
+    border-top: 1px solid rgb(40,40,40); border-top: 1px solid rgb(221, 221, 221) !important;
+    border-left: 1px solid rgb(40,40,40); border-left: 1px solid rgb(221, 221, 221) !important;
+    border-right: 1px solid rgb(221, 221, 221);
+    border-bottom: 1px solid rgb(221, 221, 221);
 }
 
 .card-title a {
@@ -729,7 +729,7 @@ input[name="blog_search"]:focus {
 }
 
 .card-title a:hover {
-    color: rgb(115,115,115); color: #fff !important;
+    color: rgb(115,115,115); color: rgb(255, 255, 255) !important;
     padding: 0 5px;
     text-shadow: none;
     transition: .5s;
@@ -754,11 +754,11 @@ input[name="blog_search"]:focus {
 }
 
 .card-subtitle.mb-2.text-muted.post_date {
-    background-color: #40bf80;
+    background-color: rgb(64, 191, 128);
     background-position: center;
     background-attachment: fixed;
     background-repeat: repeat;
-    color: rgb(75,75,75); color: #fff !important;
+    color: rgb(75,75,75); color: rgb(255, 255, 255) !important;
     font-size: 9px; font-size: 9px !important;
     text-align: center;
     text-transform: uppercase;
@@ -766,9 +766,9 @@ input[name="blog_search"]:focus {
     top: -6px; top: 1px !important;
     right: .5rem; right: 1rem !important;
     padding: 5px;
-    border-top: 1px solid rgb(40,40,40); border-top: 1px solid #ddd !important;
+    border-top: 1px solid rgb(40,40,40); border-top: 1px solid rgb(221, 221, 221) !important;
     border-left: none;
-    border-right: 1px solid #ddd;
+    border-right: 1px solid rgb(221, 221, 221);
     border-bottom: none;
 }
 
@@ -780,13 +780,13 @@ input[name="blog_search"]:focus {
 }
 
 .card-subtitle.mb-2.text-muted.post_date a:hover {
-    color: rgb(8,8,8); color: #ddd !important;
+    color: rgb(8,8,8); color: rgb(221, 221, 221) !important;
     transition: .5s;
 }
 
 .card-subtitle.mb-2.text-muted.post_date a:after {
     content: "";
-    background-color: rgb(105,105,105); background-color: #39ac73;
+    background-color: rgb(105,105,105); background-color: rgb(57, 172, 115);
     position: absolute;
     min-width: 100%;
     min-height: 0;
@@ -798,13 +798,13 @@ input[name="blog_search"]:focus {
 }
 
 .card-subtitle.mb-2.text-muted.post_date a:hover:after {
-    background-color: rgb(125,125,125); background-color: #39ac73;
+    background-color: rgb(125,125,125); background-color: rgb(57, 172, 115);
     min-width: 100%;
     min-height: 100%;
 }
-textarea#comment_body {     border-color: #ddd; }
+textarea#comment_body {     border-color: rgb(221, 221, 221); }
 .post_text.pl-3 a, .additional_info.pl-3 a, /* .profile_comment_body a*/, .copyright_text a { /*ЧЕКНУТЬ*/
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     background-size: cover;
     color: transparent; color: transparent !important;
     -moz-background-clip: text;
@@ -835,13 +835,13 @@ textarea#comment_body {     border-color: #ddd; }
 }
 
 .result {
-     background-color: #40bf80 !important;
+     background-color: rgb(64, 191, 128) !important;
     color: rgb(95,95,95); color: rgb(75,75,75) !important;
     font-weight: normal; font-weight: normal !important;
-    border-top: 1px solid rgb(40,40,40); border-top: 1px solid #ddd !important;
-    border-left: 1px solid rgb(40,40,40); border-left: 1px solid #ddd !important;
-    border-right: 1px solid rgb(8,8,8); border-right: 1px solid #ddd !important;
-    border-bottom: 1px solid rgb(8,8,8); border-bottom: 1px #ddd !important;
+    border-top: 1px solid rgb(40,40,40); border-top: 1px solid rgb(221, 221, 221) !important;
+    border-left: 1px solid rgb(40,40,40); border-left: 1px solid rgb(221, 221, 221) !important;
+    border-right: 1px solid rgb(8,8,8); border-right: 1px solid rgb(221, 221, 221) !important;
+    border-bottom: 1px solid rgb(8,8,8); border-bottom: 1px rgb(221, 221, 221) !important;
 }
 
 .result img {
@@ -871,10 +871,10 @@ textarea#comment_body {     border-color: #ddd; }
     text-align: center;
     margin: 0; margin: 0 !important;
     padding: 1.5px;
-    border-top: 1px solid rgb(40,40,40); border-top: 1px solid #ddd !important;
-    border-left: 1px solid rgb(40,40,40); border-left: 1px solid #ddd !important;
-    border-right: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
+    border-top: 1px solid rgb(40,40,40); border-top: 1px solid rgb(221, 221, 221) !important;
+    border-left: 1px solid rgb(40,40,40); border-left: 1px solid rgb(221, 221, 221) !important;
+    border-right: 1px solid rgb(221, 221, 221);
+    border-bottom: 1px solid rgb(221, 221, 221);
 }
 
 div > .button a {
@@ -899,13 +899,13 @@ div > .button {
 /*К О М М Е Н Т А Р И И*/
 
 div[id^="blog_"] > div[id^="comment_"] {
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     margin: 25px 0;
     padding: .5rem; padding: 1rem !important;
-    border-top: 1px solid rgb(40,40,40); border-top: 1px solid #ddd !important;
-    border-left: 1px solid rgb(40,40,40); border-left: 1px solid #ddd !important;
-    border-right: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
+    border-top: 1px solid rgb(40,40,40); border-top: 1px solid rgb(221, 221, 221) !important;
+    border-left: 1px solid rgb(40,40,40); border-left: 1px solid rgb(221, 221, 221) !important;
+    border-right: 1px solid rgb(221, 221, 221);
+    border-bottom: 1px solid rgb(221, 221, 221);
 }
 
 div[id^="blog_"] > div[id^="comment_"]:last-child {
@@ -926,7 +926,7 @@ div[id^="comment_"] > div > div:first-child {
 }
 
 .profile_comment_author a {
-    color: #fff !important;
+    color: rgb(255, 255, 255) !important;
     padding: 0 5px 0 0;
     border: none;
     transition: .5s;
@@ -934,7 +934,7 @@ div[id^="comment_"] > div > div:first-child {
 }
 
 .profile_comment_author a:hover {
-    color: rgb(125,125,125); color: #fff !important;
+    color: rgb(125,125,125); color: rgb(255, 255, 255) !important;
     padding: 0 0 0 5px;
     border: none;
     transition: .5s;
@@ -951,14 +951,14 @@ div[id^="comment_"] > div > div:first-child {
 }
 
 .profile_comment_date {
-    background-color: #40bf80;
+    background-color: rgb(64, 191, 128);
     background-repeat: repeat;
-    color: rgb(95,95,95); color: #fff !important;
+    color: rgb(95,95,95); color: rgb(255, 255, 255) !important;
     margin: 0 0 0 .5rem;
-    border-top: 1px solid rgb(40,40,40); border-top: 1px solid #ddd !important;
-    border-left: 1px solid rgb(40,40,40); border-left: 1px solid #ddd !important;
-    border-right: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
+    border-top: 1px solid rgb(40,40,40); border-top: 1px solid rgb(221, 221, 221) !important;
+    border-left: 1px solid rgb(40,40,40); border-left: 1px solid rgb(221, 221, 221) !important;
+    border-right: 1px solid rgb(221, 221, 221);
+    border-bottom: 1px solid rgb(221, 221, 221);
 }
 
 .profile_comment_body {
@@ -984,8 +984,8 @@ div[id^="comment_"] > div > div:first-child {
     width: 100%;
     margin-bottom: -19px; margin-bottom: -19px !important;
     padding: 2.5px 5px; padding: 2.5px 5px !important;
-    border: 1px dashed rgb(35,35,35); border: 1px dashed #ddd !important;
-    border-left: 1px solid rgb(40,40,40); border-left: 1px solid #ddd !important;
+    border: 1px dashed rgb(35,35,35); border: 1px dashed rgb(221, 221, 221) !important;
+    border-left: 1px solid rgb(40,40,40); border-left: 1px solid rgb(221, 221, 221) !important;
 }
 .profile_comment_links {
     margin: .5rem 0 0 0; margin: .5rem 0 0 0 !important;
@@ -1036,7 +1036,7 @@ a[id^="comment_next_"]:hover, a[id^="comment_last_"]:hover {
 /*Ф О Р М А _ В В О Д А _ К О М М Е Н Т А Р И Я*/
 
 .comment_headline {
-    background-color: #40bf80;
+    background-color: rgb(64, 191, 128);
     background-position: center;
     background-attachment: fixed;
     background-repeat: repeat;
@@ -1044,10 +1044,10 @@ a[id^="comment_next_"]:hover, a[id^="comment_last_"]:hover {
     font-family: 'Alice', serif;
     margin: 25px 0 0 0; margin: 25px 0 0 0 !important;
     padding: .5rem .75rem; padding: .75rem 1.25rem !important;
-    border-top: 1px solid rgb(40,40,40); border-top: 1px solid #ddd !important;
-    border-left: 1px solid rgb(40,40,40); border-left: 1px solid #ddd !important;
-    border-right: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
+    border-top: 1px solid rgb(40,40,40); border-top: 1px solid rgb(221, 221, 221) !important;
+    border-left: 1px solid rgb(40,40,40); border-left: 1px solid rgb(221, 221, 221) !important;
+    border-right: 1px solid rgb(221, 221, 221);
+    border-bottom: 1px solid rgb(221, 221, 221);
     border-radius: 0;
 }
 
@@ -1071,25 +1071,25 @@ a#attach_file_click:hover {
 }
 
 .profile_postcomment {
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     background-position: center;
     background-attachment: fixed;
     background-repeat: repeat;
     padding: .5rem;  padding: 1rem !important; 
     border-top: none; border-top: none !important; 
-    border-left: 1px solid rgb(40,40,40); border-left: 1px solid #ddd !important;
-    border-right: 1px solid rgb(8,8,8); border-right: 1px solid #ddd !important;
-    border-bottom: 1px solid rgb(8,8,8); border-bottom: 1px solid #ddd !important; 
+    border-left: 1px solid rgb(40,40,40); border-left: 1px solid rgb(221, 221, 221) !important;
+    border-right: 1px solid rgb(8,8,8); border-right: 1px solid rgb(221, 221, 221) !important;
+    border-bottom: 1px solid rgb(8,8,8); border-bottom: 1px solid rgb(221, 221, 221) !important; 
     border-radius: 0;
 }
 
 #comment_body  {
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     background-position: center;
     background-attachment: fixed;
     background-repeat: repeat;
     color: rgb(95,95,95); color: rgb(75,75,75) !important;
-    border: 1px solid #ddd;
+    border: 1px solid rgb(221, 221, 221);
     border-radius: 0;
     transition: .5s;
 }
@@ -1112,31 +1112,31 @@ input#comment_submit {
     font-size: 12px; font-size: 13px !important;
     margin: 5px 0;
     padding: 2.5px 10px; padding: 0 10px !important;
-    border-top: 1px solid rgb(40,40,40); border-top: 1px solid #ddd !important;
-    border-left: 1px solid rgb(40,40,40); border-left: 1px solid #ddd !important;
-    border-right: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
+    border-top: 1px solid rgb(40,40,40); border-top: 1px solid rgb(221, 221, 221) !important;
+    border-left: 1px solid rgb(40,40,40); border-left: 1px solid rgb(221, 221, 221) !important;
+    border-right: 1px solid rgb(221, 221, 221);
+    border-bottom: 1px solid rgb(221, 221, 221);
     transition: .5s;
 }
 
 input#comment_submit:hover, input#comment_submit:active {
-    background-color: #40bf80 !important;
-    color: #fff !important;
-    border-top: 1px solid rgb(45,45,45); border-top: 1px solid #ddd !important;
-    border-left: 1px solid rgb(45,45,45); border-left: 1px solid #ddd !important;
+    background-color: rgb(64, 191, 128) !important;
+    color: rgb(255, 255, 255) !important;
+    border-top: 1px solid rgb(45,45,45); border-top: 1px solid rgb(221, 221, 221) !important;
+    border-left: 1px solid rgb(45,45,45); border-left: 1px solid rgb(221, 221, 221) !important;
     transition: .75s;
 }
 
 input#comment_submit:active {
-    background-color: #39ac73 !important;
-    color: #fff !important;
-    border-top: 1px solid rgb(40,40,40); border-top: 1px solid #ddd !important;
-    border-left: 1px solid rgb(40,40,40); border-left: 1px solid #ddd !important;
+    background-color: rgb(57, 172, 115) !important;
+    color: rgb(255, 255, 255) !important;
+    border-top: 1px solid rgb(40,40,40); border-top: 1px solid rgb(221, 221, 221) !important;
+    border-left: 1px solid rgb(40,40,40); border-left: 1px solid rgb(221, 221, 221) !important;
 }
 
 
 #postcomment_userphotos {
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     background-position: center;
     background-attachment: fixed;
     background-repeat: repeat;
@@ -1145,7 +1145,7 @@ input#comment_submit:active {
     height: 250px; height: 300px !important; 
     margin: 0; margin: 0 !important; 
     padding: 3px; padding: 5px !important;
-    border: 1px solid rgb(8,8,8); border: 1px solid #ddd !important;
+    border: 1px solid rgb(8,8,8); border: 1px solid rgb(221, 221, 221) !important;
 }
 
 div[id^="userphoto_"] {
@@ -1179,7 +1179,7 @@ div[id^="userphoto_"].userphoto_selected {
 /*П О Д В А Л*/
 
 td > .copyright {
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     background-position: center;
     background-attachment: fixed;
     background-repeat: repeat;
@@ -1187,7 +1187,7 @@ td > .copyright {
     font-size: 12px;
     margin: 20px 0 0 0;
     padding: 5px;
-    border-top: 1px solid rgb(40,40,40); border-top: 1px solid #ddd !important;
+    border-top: 1px solid rgb(40,40,40); border-top: 1px solid rgb(221, 221, 221) !important;
 }
 
 .copyright a {
@@ -1207,8 +1207,8 @@ td > .copyright {
 /*О Т К Л Ю Ч И Т Ь _ Д И З А Й Н*/
 
 div#designs {
-border: 1px solid #ddd; background-color: #FFF;
-border-top: 1px solid #ddd; border-left: 1px solid #ddd; border-bottom: 0px solid; border-right: 0px solid; transition: .5s;
+border: 1px solid rgb(221, 221, 221); background-color: rgb(255, 255, 255);
+border-top: 1px solid rgb(221, 221, 221); border-left: 1px solid rgb(221, 221, 221); border-bottom: 0px solid; border-right: 0px solid; transition: .5s;
 }
 
 #designs:hover {
@@ -1216,10 +1216,10 @@ border-top: 1px solid #ddd; border-left: 1px solid #ddd; border-bottom: 0px soli
     background-size: 70px;
     color: rgba(95,95,95,0); color: rgba(75,75,75,0) !important;
     text-shadow: none;
-    border-top: 1px solid rgb(45,45,45); border-top: 1px solid #ddd !important;
-    border-left: 1px solid rgb(45,45,45); border-left: 1px solid #ddd !important;
-    border-right: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
+    border-top: 1px solid rgb(45,45,45); border-top: 1px solid rgb(221, 221, 221) !important;
+    border-left: 1px solid rgb(45,45,45); border-left: 1px solid rgb(221, 221, 221) !important;
+    border-right: 1px solid rgb(221, 221, 221);
+    border-bottom: 1px solid rgb(221, 221, 221);
     border-radius: 1rem;
     transition: .5s;
 }
@@ -1281,14 +1281,14 @@ div[style="padding: 10px; text-align: center; margin-top: 10px;"] > button[style
 }
 
 .copyright_text {
-    background-color: #40bf80;
+    background-color: rgb(64, 191, 128);
     background-position: center;
     background-attachment: fixed;
     background-repeat: repeat;
     color: rgb(95,95,95); color: rgb(75,75,75) !important;
     margin: 0 0 -20px 0;
     padding: .5rem;
-    border-top: 1px solid rgb(40,40,40); border-top: 1px solid #ddd !important;
+    border-top: 1px solid rgb(40,40,40); border-top: 1px solid rgb(221, 221, 221) !important;
 }
 
 .copyright_text > p {
@@ -1347,22 +1347,22 @@ div[style="padding: 10px; text-align: center; margin-top: 10px;"] > button[style
 .modal-dialog {  margin: 5px; }
 
 .modal-content {
-    border-top: 1px solid #ddd !important;
-     border-left: 1px solid #ddd !important;
-    border-right: 1px solid #ddd !important;
-    border-bottom: 1px solid #ddd !important;
+    border-top: 1px solid rgb(221, 221, 221) !important;
+     border-left: 1px solid rgb(221, 221, 221) !important;
+    border-right: 1px solid rgb(221, 221, 221) !important;
+    border-bottom: 1px solid rgb(221, 221, 221) !important;
     border-radius: 0; border-radius: 0 !important;
 }
 
-.modal-header { background-color: #40bf80; border-bottom: 1px solid #ddd; border-bottom: 1px solid #ddd !important; border-radius: 0; border-radius: 0 !important; }
+.modal-header { background-color: rgb(64, 191, 128); border-bottom: 1px solid rgb(221, 221, 221); border-bottom: 1px solid rgb(221, 221, 221) !important; border-radius: 0; border-radius: 0 !important; }
 
-.modal-title {  color: #fff !important;  }
+.modal-title {  color: rgb(255, 255, 255) !important;  }
 
-.close {   color: #fff !important; }
+.close {   color: rgb(255, 255, 255) !important; }
 
-.close:hover { #f5f5f5 !important;  transition: .25s; }
+.close:hover { rgb(245, 245, 245)!important;  transition: .25s; }
 
-.modal-footer {  background-color: #40bf80 ; border-top: 1px solid #ddd; border-top: 1px solid #ddd !important; border-radius: 0; border-radius: 0 !important; }
+.modal-footer {  background-color: rgb(64, 191, 128) ; border-top: 1px solid rgb(221, 221, 221); border-top: 1px solid rgb(221, 221, 221) !important; border-radius: 0; border-radius: 0 !important; }
 
 .modal-body {  background-color: #f5f5f5; color: rgb(95,95,95); color: rgb(75,75,75) !important; }
 
@@ -1420,7 +1420,7 @@ input[class="form-control"]:-ms-input-placeholder {color: rgb(75,75,75); color: 
     width: 50px;
     height: 50px;
     object-fit: cover;
-    border: 1px solid rgb(14,14,14); border: 1px solid #ddd !important;
+    border: 1px solid rgb(14,14,14); border: 1px solid rgb(221, 221, 221) !important;
 }
 .modal-dialog .profile_comment_date {
     background-color: rgb(22,22,22) !important;
@@ -1432,15 +1432,15 @@ input[class="form-control"]:-ms-input-placeholder {color: rgb(75,75,75); color: 
     width: 6px;
     height: 6px; }
 ::-webkit-scrollbar-thumb {
-    background-color: #40bf80 !important;
-    border-top: 1px solid #ddd !important;
-    border-left: 1px solid #ddd !important;
-    border-bottom: 1px solid #ddd;
+    background-color: rgb(64, 191, 128) !important;
+    border-top: 1px solid rgb(221, 221, 221) !important;
+    border-left: 1px solid rgb(221, 221, 221) !important;
+    border-bottom: 1px solid rgb(221, 221, 221);
 }
 
 ::-webkit-scrollbar-track {
     background-color: rgb(23,23,23); background-color: rgb(18,18,18) !important;
-    border-left: 1px solid #ddd;
+    border-left: 1px solid rgb(221, 221, 221);
 }
 ::-webkit-scrollbar-corner {
     background-color: rgb(8,8,8);
@@ -1456,7 +1456,7 @@ input[class="form-control"]:-ms-input-placeholder {color: rgb(75,75,75); color: 
 }
 @media screen and (max-width: 1024px) {
     #lefthome {padding: 50px 0 0 0; padding: 0 0 0 20px !important;}
-    .seBlogColumnRightPadding {padding: .5rem 10%;  padding: 1rem !important; border-left: none; border-left: 1px solid #ddd !important; border-right: none; border-right: 1px solid #ddd !important;}
+    .seBlogColumnRightPadding {padding: .5rem 10%;  padding: 1rem !important; border-left: none; border-left: 1px solid rgb(221, 221, 221) !important; border-right: none; border-right: 1px solid rgb(221, 221, 221) !important;}
     #righthome {padding: 0 5px; padding: 0 20px !important;}
 }
 @media screen and (min-width: 1067px) {
