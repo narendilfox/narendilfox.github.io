@@ -50,7 +50,7 @@ input[type="text"], textarea {
 div#smoothbox_container {
     background-color: rgb(12,12,12) !important;
   /*фон верха*/
-    background-image: url(https://i.ibb.co/fSWBzkW/image.png)!important;
+    background-image: url(https://ltdfoto.ru/images/2023/06/09/BOKS.png)!important;
     background-position: top center !important;
     background-attachment: fixed !important;
     background-repeat: no-repeat !important;
@@ -453,7 +453,7 @@ img[src="./images/logo_new.png"] {
     border-radius: 0;
 }
 .blog_leftphoto img {
-content: url(https://i.ibb.co/CH7rx2m/2.gif);
+content: url(https://ltdfoto.ru/images/2023/06/09/FOTO.gif);
 
 
     background-color: rgb(55,55,55);
