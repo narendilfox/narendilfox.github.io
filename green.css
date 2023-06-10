@@ -1499,3 +1499,17 @@ input[class="form-control"]:-ms-input-placeholder {color: rgb(75,75,75); color: 
 .blog_leftsearch{ height: 30px !important; overflow: hidden; transition: 0.5s; transition-delay: 1s;}
 .blog_leftsearch:hover { height: 100px !important; transition: 0.5s;}
 }
+
+/*АВКИ ДРУЗЕЙ*/
+/*МУН*/
+div[id^="comment_"] > div > div {
+position: relative;
+}
+
+div[id^="comment_"] > div > div > a[href="https://beon.vip/Luna666/"]:before {
+content: url('https://i.ibb.co/Jnyk2gK/image.png');
+position: absolute;
+top: 80px;
+left: -50px;
+}
+
