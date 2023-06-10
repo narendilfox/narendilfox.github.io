@@ -1503,14 +1503,8 @@ input[class="form-control"]:-ms-input-placeholder {color: rgb(75,75,75); color: 
 
 /*АВКИ ДРУЗЕЙ*/
 /*МУН*/
-div[id^="comment_"] > div > div {
+div[id^="comment_"] > div > div > a[href="https://beon.vip/elfin/"]:before {
+content: 'Лунышко ❤';
 position: relative;
-}
-
-div[id^="comment_"] > div > div > a[href="https://beon.vip/Luna666/"]:before {
-content: url('https://i.ibb.co/Jnyk2gK/image.png');
-position: absolute;
-top: 80px;
-left: -50px;
 }
 
