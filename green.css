@@ -50,7 +50,7 @@ input[type="text"], textarea {
 div#smoothbox_container {
     background-color: rgb(12,12,12) !important;
   /*фон верха*/
-    background-image: url(https://ltdfoto.ru/images/2023/06/09/BOKS.png)!important;
+    background-image: url(https://i.ibb.co/bvhQ6Cx/image.png)!important;
     background-position: top center !important;
     background-attachment: fixed !important;
     background-repeat: no-repeat !important;
@@ -90,7 +90,7 @@ div#smoothbox_container:before {
 div#smoothbox_container:after {
     content: 'Elf' !important;
     background-color: rgb(55,55,55) !important;
-background-color: #87491f !important;
+background-color: rgb(57, 172, 115) !important;
     background-size: cover !important;
     color: transparent !important;
     font-family: 'Bangers', cursive !important;
@@ -453,7 +453,7 @@ img[src="./images/logo_new.png"] {
     border-radius: 0;
 }
 .blog_leftphoto img {
-content: url(https://ltdfoto.ru/images/2023/06/09/FOTO.gif);
+content: url(https://i.ibb.co/mRb9HCq/image.gif);
 
 
     background-color: rgb(221 221 221);
