@@ -318,24 +318,29 @@ img[src="./images/logo_new.png"] {
     margin-left: 2px !important;
     padding: 2px 4px; padding: 2px 4px !important;
 }
+/*кнопка вниз*/
    .button_down:last-child {
-    background-color: transparent !important;
-   /* background-image: url(https://i.ibb.co/pyxSpwB/button-down.png); background-image: url(https://i.ibb.co/pyxSpwB/button-down.png) !important; */
-    background-position: 9px 0 !important;
-    background-repeat: no-repeat !important;
-    background-size: 30px !important;
-    padding: 0 9px !important;
-    width: 46px !important;
-    height: auto;
-    border-radius: 0 !important;
-    transition: .5s;
+height: 38px;
+line-height: 3.2;
+min-width: 38px;
+font-weight: normal;
+margin-right: 4px;
+margin-top: -5px;
 }
+ .button_down:last-child {
+background-color: transparent !important;
+color: rgb(134 134 134);
+margin-left: 2px !important;
+padding: 2px 4px;
+padding: 2px 4px !important;
+}
+
 [src="/images/button_down.svg"] {
     width: 30px;
     opacity: 0;
 }
 #newupdates, .button_down:last-child, .navbar-toggler-icon, .btn.btn-outline-success:last-child {
-    filter: brightness(1.24); filter: none !important;
+    filter: none !important;
     transition: .5s;
 }
 
