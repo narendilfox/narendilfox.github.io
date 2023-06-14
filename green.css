@@ -65,8 +65,8 @@ div#smoothbox_container {
 }
 div#smoothbox_container:before {
     content: 'Это всё, что останется после меня' !important;
-   background-color: rgba(12,12,12,.5) !important;
-    color: rgb(55,55,55) !important;
+   background-color: rgba(64,191,128,.5) !important;
+    color: rgb(255,255,255) !important;
     font-size: .825vw !important;
     text-align: center !important;
     font-family: 'Alice', serif;
@@ -77,10 +77,10 @@ div#smoothbox_container:before {
     width: auto !important;
     padding: 10px !important; /*изначально 10*/
 
-   border-top-left-radius: 100% 15% !important;
-    border-top-right-radius: 100% 15% !important;
-    border-bottom-left-radius: 100% 15% !important;
-    border-bottom-right-radius: 100% 15% !important;
+  /* border-top-left-radius: 100% 15% !important;
+    border-top-right-radius: 100% 15% !important;*/
+    border-bottom-left-radius: 100% 75% !important;
+    border-bottom-right-radius: 100% 75% !important;
 
     opacity: 0 !important;
     transform: translate(0, 25px) !important;
@@ -334,7 +334,7 @@ margin-left: 2px !important;
 padding: 2px 4px;
 padding: 2px 4px !important;
 }
-
+/*--*/
 [src="/images/button_down.svg"] {
     width: 30px;
     opacity: 0;
