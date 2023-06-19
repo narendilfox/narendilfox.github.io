@@ -8,3 +8,10 @@ border: unset!important;
 img.menu_icon2 {
   display: none!important;
 }
+
+body { background-color: rgb(2, 2, 2)!important; }
+.post_home{
+background-image: url(https://i.ibb.co/4MYh1J6/image.gif)!important;
+background-position: top right!important;
+ background-repeat: repeat-y!important; 
+}
