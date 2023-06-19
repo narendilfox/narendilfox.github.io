@@ -2,16 +2,16 @@
 
 
 div#lefthome * {
-border: unset;
+border: unset!important;
 } 
 
-body { background-color: rgb(2, 2, 2)!important; }body { background-image: url(https://i.ibb.co/4MYh1J6/image.gif)!important; }body { background-position: top right!important; }body { background-repeat: repeat-y!important; }body { background-attachment: fixed!important; }.post_home { background-color: rgb(0, 0, 0)!important; }.card-title { background: rgb(0, 0, 0)!important; }.post_home { color: rgb(170, 170, 170)!important; }.text-muted { color: rgb(170, 170, 170)!important; }.post_home a { color: rgb(6, 6, 6)!important; }.button a { color: rgb(6, 6, 6); }.post_home { background-position: top center; }.post_home { background-repeat: no-repeat; }.seBlogComments { background-color: rgb(255, 255, 255); }.seBlogComments { color: rgb(224, 224, 30); }#comment_user_status { color: rgb(224, 224, 30); }.seBlogComments a { color: rgb(2, 2, 2); }.seBlogComments textarea { background-color: rgb(255, 255, 255); }.seBlogComments { background-position: top left; }.seBlogComments { background-repeat: repeat; }.seBlogColumnRightPadding .card { background-color: rgb(0, 0, 0); }.seBlogColumnRightPadding .card-title { background: rgb(0, 0, 0); }.seBlogColumnRightPadding .card { color: rgb(15, 13, 13); }.text-muted { color: rgb(15, 13, 13); }.seBlogColumnRightPadding .card a { color: rgb(255, 255, 255); }.button a { color: rgb(255, 255, 255); }.seBlogColumnRightPadding .card { background-image: url(https://i.ibb.co/4MYh1J6/image.gif); }.seBlogColumnRightPadding .card { background-position: top left; }.seBlogColumnRightPadding .card { background-repeat: no-repeat; }
+body { background-color: rgb(2, 2, 2)!important; }body { background-image: url(https://i.ibb.co/4MYh1J6/image.gif)!important; }body { background-position: top right!important; }body { background-repeat: repeat-y!important; }body { background-attachment: fixed!important; }.post_home { background-color: rgb(0, 0, 0)!important; }.card-title { background: rgb(0, 0, 0)!important; }.post_home { color: rgb(170, 170, 170)!important; }.text-muted { color: rgb(170, 170, 170)!important; }.post_home a { color: rgb(6, 6, 6)!important; }.button a { color: rgb(6, 6, 6)!important; }.post_home { background-position: top center!important; }.post_home { background-repeat: no-repeat!important; }.seBlogComments { background-color: rgb(255, 255, 255)!important; }.seBlogComments { color: rgb(224, 224, 30)!important; }#comment_user_status { color: rgb(224, 224, 30)!important; }.seBlogComments a { color: rgb(2, 2, 2)!important; }.seBlogComments textarea { background-color: rgb(255, 255, 255)!important; }.seBlogComments { background-position: top left!important; }.seBlogComments { background-repeat: repeat!important; }.seBlogColumnRightPadding .card { background-color: rgb(0, 0, 0)!important; }.seBlogColumnRightPadding .card-title { background: rgb(0, 0, 0)!important; }.seBlogColumnRightPadding .card { color: rgb(15, 13, 13)!important; }.text-muted { color: rgb(15, 13, 13)!important; }.seBlogColumnRightPadding .card a { color: rgb(255, 255, 255)!important; }.button a { color: rgb(255, 255, 255)!important; }.seBlogColumnRightPadding .card { background-image: url(https://i.ibb.co/4MYh1J6/image.gif)!important; }.seBlogColumnRightPadding .card { background-position: top left!important; }.seBlogColumnRightPadding .card { background-repeat: no-repeat!important; }
 .post_home{
-background-image: url(https://i.ibb.co/4MYh1J6/image.gif);
-background-position: top right;
- background-repeat: repeat-y; 
+background-image: url(https://i.ibb.co/4MYh1J6/image.gif)!important;
+background-position: top right!important;
+ background-repeat: repeat-y!important; 
 }
 
 img.menu_icon2 {
-  display: none;
+  display: none!important;
 }
