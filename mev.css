@@ -1,0 +1,18 @@
+@import url('https://AstralSnake.github.io/sticer.css');
+
+div#lefthome * {
+border: unset;
+} 
+
+
+
+body { background-color: #020202; }body { background-image: url('https://beon.vip/uploads_user/23000/22676/9ed1a8ed89933a6ad6c5e72efe891d8b.gif'); }body { background-position: top right; }body { background-repeat: repeat-y; }body { background-attachment: fixed; }.post_home { background-color: #000000; }.card-title { background: #000000; }.post_home { color: #aaaaaa; }.text-muted { color: #aaaaaa; }.post_home a { color: #060606; }.button a { color: #060606; }.post_home { background-position: top center; }.post_home { background-repeat: no-repeat; }.seBlogComments { background-color: #ffffff; }.seBlogComments { color: #e0e01e; }#comment_user_status { color: #e0e01e; }.seBlogComments a { color: #020202; }.seBlogComments textarea { background-color: #ffffff; }.seBlogComments { background-position: top left; }.seBlogComments { background-repeat: repeat; }.seBlogColumnRightPadding .card { background-color: #000000; }.seBlogColumnRightPadding .card-title { background: #000000; }.seBlogColumnRightPadding .card { color: #0f0d0d; }.text-muted { color: #0f0d0d; }.seBlogColumnRightPadding .card a { color: #ffffff; }.button a { color: #ffffff; }.seBlogColumnRightPadding .card { background-image: url('https://beon.vip/uploads_user/23000/22676/96165787201e2194025089a988f46ffc.gif'); }.seBlogColumnRightPadding .card { background-position: top left; }.seBlogColumnRightPadding .card { background-repeat: no-repeat; }
+.text-muted {
+    color: rgb(170 170 170);
+}
+.post_home a {
+    color: rgb(170 170 170);
+}
+img.menu_icon2 {
+  display: none;
+}
