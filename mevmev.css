@@ -1,0 +1,10 @@
+@import url('https://AstralSnake.github.io/sticer.css');
+
+
+div#lefthome * {
+border: unset!important;
+} 
+
+img.menu_icon2 {
+  display: none!important;
+}
