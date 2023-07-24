@@ -51,8 +51,10 @@ a:hover {
 /*----------------*/
 
 body {
-    background: url(https://i.ibb.co/b52mkz7/dream-tapir-2.png) no-repeat left -4% center / contain fixed, url(https://www.transparenttextures.com/patterns/arches.png) fixed;
-    background-color: #fbfbfb;
+  background: url(https://i.ibb.co/X3kZGwN/image.png) repeat bottom fixed, url(https://i.ibb.co/bs7L7RP/4401856338-9aa14e69d9-b.png) no-repeat left bottom fixed;
+    background-size: auto, contain;
+    background-blend-mode: soft-light;
+    background-position-x: -20px;
 }
 
 .top_header {
@@ -80,7 +82,7 @@ table.body {
 }
 
 div#righthome {
-    background: #fbfbfb url(https://www.transparenttextures.com/patterns/arches.png) fixed;
+    background: url(https://i.ibb.co/X3kZGwN/image.png) repeat bottom fixed;
     padding: 0px;
     max-width: 750px;
     margin-left: unset;
