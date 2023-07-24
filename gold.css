@@ -146,7 +146,8 @@ li.p-1 {
     flex-wrap: wrap;
 }
 .card.mt-3.blog_leftmenu li.p-1 {
-    background: url(https://i.ibb.co/jw0FWj6/dream-tapir-2-bez.jpg) fixed;
+  /*  background: url(https://i.ibb.co/jw0FWj6/dream-tapir-2-bez.jpg) fixed;*/ /*картинка на меню*/
+    background: rgb(40 40 40 / 42%);
     background-size: 425px;
     width: 74px;
     height: 74px;
@@ -158,18 +159,18 @@ li.p-1 {
     transition: 1s cubic-bezier(0.59, 0.46, 0.15, 1.16);
     transition-delay: 0.2s;
 }
-
+/*для картинки на меню*/
 .card.mt-3.blog_leftmenu li.p-1:hover {
     background-size: 435px;
     transition-delay: 0s;
 }
 
 .card.mt-3.blog_leftmenu li.p-1 a {
-    color: #000000 !important;
+    color: #b1b1b1 !important;
     text-shadow: 0 0 4px #ffffff;
     font-size: 11px;
     display: block;
-    background: #ffffffd9;
+    background: rgb(40 40 40 / 42%);
     width: 65px;
     height: 65px;
     border-radius: 3px;
