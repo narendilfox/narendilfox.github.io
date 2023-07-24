@@ -28,10 +28,10 @@ div#user_status,.blog_user_status {
     padding-top: 3px;
 }
 a {
-    color: #2a2925 !important;
+    color: #b1b1b1 !important;
 }
 .post,div#user_status,h6.card-subtitle.mb-2.text-muted.post_date,.blog_user_status {
-    color: #2a2925 !important;
+    color: #b1b1b1 !important;
 }
 a:hover {
     text-decoration: unset !important;
@@ -44,7 +44,7 @@ a:hover {
 }
 
 .like_button.liked:before {
-    text-shadow: 0px 0px #2a2925;
+    text-shadow: 0px 0px #b1b1b1;
 }
 
 
@@ -266,8 +266,8 @@ audio::-webkit-media-controls-panel {
 
 audio::-webkit-media-controls-current-time-display,
 audio::-webkit-media-controls-time-remaining-display {
-    text-shadow: 0 0 #2a2925;
-    color: #2a2925;
+    text-shadow: 0 0 #b1b1b1;
+    color: #b1b1b1;
 }
 
 .copyright {
@@ -302,7 +302,7 @@ h2.card-title {
 }
 
 h2.card-title a {
-    color: #2a2925 !important;
+    color: #b1b1b1 !important;
 }
 
 h6.card-subtitle.mb-2.text-muted.post_date {
@@ -908,4 +908,12 @@ span#notify_total,
 [onclick="$('menu_main_dropdown').style.display = ( $('menu_main_dropdown').style.display=='none' ? 'inline' : 'none' ); this.blur(); return false;"],
 a.page-link {
     box-shadow: 0 0 3px #836c32;
+}
+
+/*Дополнительные настройки от Эльфа*/
+.post_container {
+    background: rgb(40 40 40 / 42%);
+    border-bottom: 1px solid #fff0;
+    border-image: radial-gradient(circle, rgb(108 108 108) 0%, transparent 100%);
+    border-image-slice: 1;
 }
