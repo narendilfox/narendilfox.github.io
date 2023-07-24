@@ -377,7 +377,7 @@ div#righthome {
 }
 
 .gifts-list {
-    background: #fbfbfb;
+    background: rgb(40 40 40 / 42%);
     border-radius: 3px;
     margin-left: 10px;
     margin-right: 10px;
@@ -392,8 +392,8 @@ div#righthome {
     image-rendering: pixelated;
 }
 blockquote.blockquote {
-    color: #75571b;
-    border-color: #856525;
+    color: #b1b1b1 !important;
+    border-color: #b1b1b1 !important;
 }
 
 ul.seBlogCategoryList a:hover,
@@ -401,7 +401,7 @@ h2.card-title a:hover,
 h6.card-subtitle.mb-2.text-muted.post_date a:hover,
 .post_text.pl-3 a:hover,
 .category a:hover {
-    color: #75571b !important;
+    color: #fff !important;
 }
 
 
