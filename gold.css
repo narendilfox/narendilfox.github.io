@@ -297,7 +297,7 @@ div#content_flex+br {
 /*----END----*/
 
 h2.card-title {
-    text-align: center;
+    text-align: end;
     border-radius: 10px;
     background-blend-mode: hue;
 }
