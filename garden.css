@@ -905,14 +905,6 @@ span#notify_total, [onclick="$('menu_main_dropdown').style.display = ( $('menu_m
 
 /*----НОВАЯ ИКОНКА----*/
 
-[onmouseover="showMenu('menu_dropdown_profile');"]:before {
-    content: '' !important;
-    width: 35px !important;
-    height: 35px !important;
-    display: block !important;
-    background: url(https://www.svgrepo.com/show/474643/user.svg) no-repeat center / 25px;
-    filter: invert(1) sepia(1) brightness(0.4) saturate(3) hue-rotate(-15deg);
-}
 
 /*[href="./"]:before {
     content: '' !important;
