@@ -918,9 +918,7 @@ a.page-link {
     border-image: radial-gradient(circle, rgb(108 108 108) 0%, transparent 100%);
     border-image-slice: 1;
 }
-.post_text.pl-3, .additional_info.pl-3 {
-    margin: 10px;
-}
+
 .card-title a:after {
     content: "";
     background-color: rgb(40 40 40 / 42%) !important;
