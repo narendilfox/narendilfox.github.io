@@ -582,7 +582,7 @@ a.top_menu_item:before, [href="./"]:before {
 }
 
 [onmouseover="showMenu('menu_dropdown_tests');"]:before {
-    content: '\eb52' !important;
+    content: '\ecf1' !important;
 }
 
 
