@@ -753,18 +753,17 @@ span#notify_total {
 textarea#comment_body {
     background:  #2828286b;
     border: 1px solid #d4cdcd;
+    color: #b1b1b1 !important;
 }
 
 input#comment_submit,button.btn.btn-secondary {
-    background: url(https://i.ibb.co/hVf6gjB/gold-static.gif) center bottom;
-    background-color: #a68c66;
+    background: #2828286b;
     background-blend-mode: soft-light;
     font-size: 12px;
 }
 
 input#comment_submit:hover,button.btn.btn-secondary:hover {
-    background: url(https://i.ibb.co/w0cN3B8/gold.gif) center bottom !important;
-    background-color: #a68c66 !important;
+    background: #282828 !important;
     background-blend-mode: soft-light;
     font-size: 12px;
 }
@@ -774,20 +773,17 @@ input#comment_submit:hover,button.btn.btn-secondary:hover {
 ::-webkit-scrollbar {
     width: 10px;
     height: 10px;
-    background:  #2828286b;
+    background:  #000000;
 }
 
 
 ::-webkit-scrollbar-thumb {
-    background: url(https://i.ibb.co/hVf6gjB/gold-static.gif) center bottom;
-    background-color: #a68c66;
-    background-blend-mode: soft-light;
+    background: #888888;
 }
 
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #a68c66 url(https://i.ibb.co/w0cN3B8/gold.gif) center;
-    background-blend-mode: soft-light;
+    background: #b1b1b1;
 }
 
 
