@@ -533,7 +533,7 @@ button.btn.btn-primary {
 
 button.btn.btn-primary:before {
     content: '\ebaf';
-    color: #836c32;
+    color: #ffffff;
     font-size: 25px;
 }
 
@@ -567,7 +567,7 @@ a.top_menu_item {
 
 a.top_menu_item:before, [href="./"]:before {
     content: '\ea26';
-    color: #836c32;
+    color: #ffffff;
     font-size: 25px;
 }
 
@@ -669,7 +669,7 @@ a.menu_item {
 }
 
 .top_header a.menu_item:hover {
-    background: #836c32 !important;
+    background: #ffffff !important;
     color:  #2828286b !important;
 }
 
@@ -736,7 +736,7 @@ span#notify_total {
     background:  #2828286b;
     outline: unset;
     border-radius: 3px;
-    color: #836c32;
+    color: #ffffff;
 }
 
 /*----ШАПКА END----*/
@@ -816,7 +816,7 @@ a.page-link {
 li.page-item a:before, li.page-item+li.page-item a:before {
     content: '\e920';
     font-size: 20px;
-    color: #836c32;
+    color: #ffffff;
     font-family: 'cappuccicons';
 }
 
@@ -933,7 +933,7 @@ a.page-link:hover {
 }
 
 div#designs {
-    box-shadow: 0 0 3px #836c32;
+    box-shadow: 0 0 3px #ffffff;
     background-color: #806024;
 }
 li.page-item:only-child a:before {
