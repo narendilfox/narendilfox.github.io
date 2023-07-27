@@ -360,6 +360,7 @@ div#righthome {
 .seBlogComments {
     padding: 20px;
     padding-bottom: 80px;
+    color: #b1b1b1;
 }
 
 .gifts-list .p-1:first-child, .gifts-list .p-1:first-child+.p-1, .gifts-list .p-1:first-child+.p-1+.p-1, .gifts-list .p-1:first-child+.p-1+.p-1+.p-1 {
