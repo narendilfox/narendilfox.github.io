@@ -360,7 +360,7 @@ div#righthome {
 .seBlogComments {
     padding: 20px;
     padding-bottom: 80px;
-    color: #b1b1b1;
+    color: #b1b1b1
 }
 
 .gifts-list .p-1:first-child, .gifts-list .p-1:first-child+.p-1, .gifts-list .p-1:first-child+.p-1+.p-1, .gifts-list .p-1:first-child+.p-1+.p-1+.p-1 {
@@ -410,7 +410,7 @@ h6.card-subtitle.mb-2.text-muted.post_date a:hover,
 /*-----ШАПКА-----*/
 
 .top_header {
-    background: #fbfbfb;
+    background: #000000ab;
     backdrop-filter: blur(2px);
     border: unset;
     display: block;
@@ -432,7 +432,7 @@ h6.card-subtitle.mb-2.text-muted.post_date a:hover,
 [onclick="$('menu_main_dropdown').style.display = ( $('menu_main_dropdown').style.display=='none' ? 'inline' : 'none' ); this.blur(); return false;"] {
     bottom: -70px !important;
     left: 20px !important;
-    background: #fbfbfb !important;
+    background: #000000ab !important;
     width: 30px !important;
     height: 30px !important;
 }
@@ -455,7 +455,7 @@ div#menu_main_dropdown>div {
 [onmouseover="showMenu('menu_dropdown_profile');"], [onmouseover="showMenu('menu_dropdown_blog');"], [onmouseover="showMenu('menu_dropdown_tests');"], [onmouseover="showMenu('menu_dropdown_groups');"], [onmouseover="showMenu('menu_dropdown_albums');"], [href="im.php"], [onmouseover="showMenu('menu_dropdown_albums');"],
 [onclick="$('menu_main_dropdown').style.display = ( $('menu_main_dropdown').style.display=='none' ? 'inline' : 'none' ); this.blur(); return false;"],
 [href="./"] {
-    background: #fbfbfb;
+    background: #000000ab;
     position: absolute;
     bottom: 0;
     left: 20px;
@@ -510,7 +510,7 @@ div#menu_main_dropdown>div {
 }
 
 button#newupdates, button.btn.btn-primary, button.button_down {
-    background: #fbfbfb !important;
+    background: #000000ab !important;
     position: absolute;
     bottom: 20px;
     right: 20px;
@@ -541,7 +541,7 @@ button.btn.btn-primary {
 
 button.btn.btn-primary:before {
     content: '\ebaf';
-    color: #836c32;
+    color: #b1b1b1;
     font-size: 25px;
 }
 
@@ -575,7 +575,7 @@ a.top_menu_item {
 
 a.top_menu_item:before, [href="./"]:before {
     content: '\ea26';
-    color: #836c32;
+    color: #b1b1b1;
     font-size: 25px;
 }
 
@@ -665,7 +665,7 @@ img.menu_icon2 {
 }
 
 div.menu_item_dropdown a {
-    background: #fbfbfb !important;
+    background: url(https://i.ibb.co/w7FtJLd/image.png) !important;
 }
 
 div.menu_dropdown {
@@ -673,11 +673,11 @@ div.menu_dropdown {
 }
 
 a.menu_item {
-    color: #000000 !important;
+    color: #b1b1b1 !important;
 }
 
 .top_header a.menu_item:hover {
-    background: #836c32 !important;
+    background: #b1b1b13b !important;
     color: #fbfbfb !important;
 }
 
@@ -909,7 +909,7 @@ button.btn.btn-primary.btn-block.btn-post:before {
 span#notify_total,
 [onclick="$('menu_main_dropdown').style.display = ( $('menu_main_dropdown').style.display=='none' ? 'inline' : 'none' ); this.blur(); return false;"],
 a.page-link {
-    box-shadow: 0 0 3px #836c32;
+    box-shadow: 0 0 3px #000000;
 }
 
 /*Дополнительные настройки от Эльфа*/
