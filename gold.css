@@ -607,7 +607,7 @@ a.top_menu_item:before, [href="./"]:before {
 }
 
 [onclick="$('menu_main_dropdown').style.display = ( $('menu_main_dropdown').style.display=='none' ? 'inline' : 'none' ); this.blur(); return false;"]:before {
-    content: '\eb81' !important;
+    content: '\eb41' !important;
     font-size: 20px !important;
 }
 
