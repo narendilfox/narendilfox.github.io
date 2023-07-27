@@ -566,7 +566,7 @@ a.top_menu_item {
 }
 
 a.top_menu_item:before, [href="./"]:before {
-    content: '\ea26';
+    content: '\eca0';
     color: #ffffff;
     font-size: 25px;
 }
@@ -914,14 +914,14 @@ span#notify_total, [onclick="$('menu_main_dropdown').style.display = ( $('menu_m
     filter: invert(1) sepia(1) brightness(0.4) saturate(3) hue-rotate(-15deg);
 }
 
-[href="./"]:before {
+/*[href="./"]:before {
     content: '' !important;
     width: 35px !important;
     height: 35px !important;
     display: block !important;
     background: url(https://www.svgrepo.com/show/510001/home.svg) no-repeat center / 25px;
     filter: invert(1) sepia(1) brightness(0.45) saturate(6) hue-rotate(-15deg);
-}
+}*/
 
 
 a.page-link {
