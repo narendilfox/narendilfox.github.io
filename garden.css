@@ -669,8 +669,8 @@ a.menu_item {
 }
 
 .top_header a.menu_item:hover {
-    background: #ffffff !important;
-    color:  #2828286b !important;
+    background: #424242 !important;
+    color:  #ffffff !important;
 }
 
 a.top_menu_item, [href="./"] {
