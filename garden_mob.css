@@ -16,6 +16,7 @@ font-family: 'Victor Mono', monospace;
 */
 body {
     font-family: 'Victor Mono', monospace,'Noto Serif SC', serif;
+    color: #b1b1b1 !important;
 }
 div#user_status,.blog_user_status {
     font-size: 10px;
