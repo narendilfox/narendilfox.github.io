@@ -217,7 +217,7 @@ div#righthome1:after {
     background: #ffc47f78;
 }
 .post_container .post_text img {
-    border-radius: 7px;
+    border-radius: 10px;
 }
 
 .card.p-1 {
@@ -945,8 +945,15 @@ div#bbcode {
     filter: saturate(1) drop-shadow(-5px 5px 0px #ffffff10);
     transition: .3s;
 }
-
-
+.post_container .post_text img {
+    filter: saturate(0.4);
+    transition: .3s;
+}
+    
+.post_container .post_text img:hover {
+    filter: saturate(1);
+    transition: .3s;
+}
 /*стикеры*/
 div#bbcode img.fl_l {
     width: 17.5px !important;
