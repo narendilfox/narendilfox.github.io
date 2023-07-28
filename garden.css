@@ -880,7 +880,8 @@ button.btn.btn-primary.btn-block.btn-post:before {
 
 /*----MODAL----*/
 .modal-content {
-    background:  #2828286b;
+    background:  #282828;
+    color: #ffffff;
     border-radius: 5px;
     border: unset;
 }
