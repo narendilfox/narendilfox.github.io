@@ -1,0 +1,531 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&family=Noto+Sans+Cypro+Minoan&family=Noto+Serif+SC:wght@300&family=Roboto+Condensed&family=Victor+Mono&display=swap');
+
+
+@font-face{font-family:'cappuccicons';src:url('//source.cappuccicons.com/cappuccicons.eot');src:url('//source.cappuccicons.com/cappuccicons.eot#iefix') format('embedded-opentype'), url('//source.cappuccicons.com/cappuccicons.ttf') format('truetype'), url('//source.cappuccicons.com/cappuccicons.woff') format('woff'), url('//source.cappuccicons.com/cappuccicons.svg#cappuccicons') format('svg');font-weight:normal;font-style:normal;font-display:block;}
+
+
+/*
+
+font-family: 'Manrope', sans-serif;
+font-family: 'Noto Sans Cypro Minoan', sans-serif;
+font-family: 'Noto Serif SC', serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Victor Mono', monospace;
+
+
+*/
+body {
+    font-family: 'Victor Mono', monospace,'Noto Serif SC', serif;
+}
+div#user_status,.blog_user_status {
+    font-size: 10px;
+    padding-top: 3px;
+}
+a {
+    color:  #b1b1b1 !important;
+}
+.post,div#user_status,h6.card-subtitle.mb-2.text-muted.post_date,.blog_user_status {
+    color:  #b1b1b1 !important;
+}
+a:hover {
+    text-decoration: unset !important;
+}
+
+
+.post_data a, p.card-link.post_views, .post_data, .profile_comment_links, span.category_post, .like_button:before, p.card-link.post_views:before, p.card-link.post_comments a:before, [onclick^="more_menu"]:before, p.card-link:before, a.commentReply, .commentDeleteLink:before, a.commentReply:before, [onclick^="newmessage"]:before, .commentEditLink:before, p.card-link.grouppost_comments:before,
+.like_button.liked+span{
+    color: #9e9e9e !important;
+}
+
+.like_button.liked:before {
+    text-shadow: 0px 0px  #b1b1b1;
+}
+
+
+/*---------------------------------------*/
+
+
+body1 {
+    background: url(https://i.ibb.co/28QK3pT/garden-bw.png) no-repeat left -4% center / contain fixed, url(https://i.ibb.co/w7FtJLd/image.png) fixed;
+    background-color:  #2828286b;
+}
+
+
+div#righthome {
+    background: #000000 url(https://i.ibb.co/w7FtJLd/image.png);
+}
+
+.card.mb-2.post_home {
+    padding: 20px;
+}
+
+.seBlogComments {
+    padding: 20px;
+    padding-bottom: 80px;
+}
+
+
+h2.card-title {
+    text-align: center;
+    border-radius: 10px;
+    background-blend-mode: hue;
+}
+
+h6.card-subtitle.mb-2.text-muted.post_date {
+    margin-top: 40px;
+}
+
+
+audio {
+    height: 30px;
+}
+audio::-webkit-media-controls-panel {
+    background: #b1b1b1;
+}
+
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display {
+    text-shadow: 0 0 #ffffff;
+    color: #ffffff;
+}
+
+
+
+[src="/images/verify.png"] {
+    filter: grayscale(1);
+}
+
+.comment_headline,.profile_postcomment {
+    border: unset !important;
+}
+
+textarea#comment_body {
+    background:  #2828286b;
+    border: 1px solid #d4cdcd;
+}
+
+input#comment_submit,button.btn.btn-secondary, div#mobile_menu button.btn.btn-primary {
+    background: #2828286b;
+    background-blend-mode: soft-light;
+    font-size: 12px;
+}
+
+input#comment_submit:hover,button.btn.btn-secondary:hover, div#mobile_menu button.btn.btn-primary:hover {
+   background: #282828 !important;
+    background-blend-mode: soft-light;
+    font-size: 12px;
+}
+
+
+
+.card.mt-3.blog_leftmenu .card-body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card.mt-3.blog_leftmenu li.p-1 {
+    background: url(https://i.ibb.co/28QK3pT/garden-bw.png) fixed;
+    background-size: 425px;
+    width: 74px;
+    height: 74px;
+    margin: 3px;
+    text-align: center;
+    overflow: hidden;
+    background-blend-mode: color-dodge;
+    border-radius: 5px;
+    transition: 1s cubic-bezier(0.59, 0.46, 0.15, 1.16);
+    transition-delay: 0.2s;
+}
+
+.card.mt-3.blog_leftmenu li.p-1 a {
+    color: #ffffff !important;
+    text-shadow: 0 0 4px #ffffff;
+    font-size: 11px;
+    display: block;
+    background: #2828286b;
+    width: 65px;
+    height: 65px;
+    border-radius: 3px;
+    backdrop-filter: blur(3px);
+    opacity: 0;
+}
+
+
+li.p-1.left_menu_categories_link a,
+li.p-1.left_menu_quotes_link a{
+    padding-top: 24px !important;
+}
+
+
+li.p-1.left_menu_profile_link a, li.p-1.left_menu_from_main_link a, li.p-1.left_menu_blog_sttings_link a, li.p-1.left_menu_editprofile_link a, li.p-1.left_menu_gifts_link a,
+li.seBlogSubscribe.p-1 a {
+    padding-top: 16px;
+}
+
+li.p-1.left_menu_blog_link a {
+    padding-top: 7px;
+}
+
+li.p-1.left_menu_user_blog_link,li.p-1.left_menu_userphotos_link,li.p-1.left_menu_account_link {
+    display: none !important;
+}
+
+li.p-1.left_menu_edit_link {
+    display: none !important;
+}
+
+.card.mt-3.blog_leftmenu li.p-1:hover {
+    background-size: 435px;
+    transition-delay: 0s;
+}
+.card-header {
+    display: none;
+}
+div#lefthome .card {
+    border: unset;
+}
+
+.gifts-list .p-1:first-child, .gifts-list .p-1:first-child+.p-1, .gifts-list .p-1:first-child+.p-1+.p-1, .gifts-list .p-1:first-child+.p-1+.p-1+.p-1 {
+    display: block;
+}
+.gifts-list .p-1 {
+    display: none;
+}
+
+.gifts-list img {
+    width: 37px;
+}
+.gifts-list {
+    font-size: 0;
+}
+
+.gifts-list {
+    border-radius: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.show_menu.header-orange {
+    background: #000000;
+    color: #b1b1b1 !important;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+
+/*-----МОБИЛЬНАЯ ШАПКА-----*/
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
+    background: #2828286b;
+    border: unset !important;
+}
+
+[src="./images/logo_new.png"] {
+    display: none;
+}
+[href="./"]:before {
+    content: '' !important;
+    width: 35px !important;
+    height: 35px !important;
+    display: block !important;
+    background: url(https://www.svgrepo.com/show/510001/home.svg) no-repeat center / 25px;
+    filter: invert(1);
+}
+
+[src="/images/notify.svg"] {
+    width: 25px;
+    filter: invert(1);
+}
+
+button.btn.btn-outline-success:before {
+    background: url(https://www.svgrepo.com/show/368655/down-small.svg) no-repeat center / 38px;
+    filter: invert(1);
+    opacity: 1;
+}
+
+button.navbar-toggler, button.navbar-toggler:hover {
+    background: url(https://www.svgrepo.com/show/473880/menu-hamburger.svg) no-repeat center / 32px !important;
+    filter: invert(1);
+    opacity: 1;
+}
+
+
+.copyright {
+    display: none;
+}
+
+
+.show_menu.header-orange {
+    box-shadow: 0 0 11px #5f5f5f;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.top_menu.top_mobile_menu {
+    box-shadow: 0 0 11px #5f5f5f73;
+}
+
+div#mobile_menu,#mobile_menu .menu_item_dropdown a {
+    background: #000000;
+    color: #b1b1b1;
+}
+
+img.menu_icon2 {
+     display: none;
+}
+
+/*-----ДОП 2------*/
+
+ul.pagination.justify-content-end.float-right {
+    position: fixed;
+    bottom: 20px;
+    right: 45px;
+    margin: 0px;
+}
+
+a.page-link {
+    background: #000000;
+    border-radius: 3px !important;
+    width: 35px;
+    height: 35px;
+    margin-left: 15px !important;
+    font-size: 0px;
+    padding: 0px;
+    text-align: center;
+    line-height: 1.7;
+}
+
+
+li.page-item a:before, li.page-item+li.page-item a:before {
+    content: '\e920';
+    font-size: 20px;
+    color: #b1b1b1;
+    font-family: 'cappuccicons';
+}
+
+
+li.page-item+li.page-item a:before {
+    content: '\e921';
+}
+
+:focus {
+    box-shadow: unset !important;
+}
+
+
+.list-users-home.pt-2+.pt-2 button.btn.btn-primary.btn-block:hover, a.nav-item.nav-link.active:hover, .card [onclick="$('#profile_viewers').toggle();"]:hover, a.page-link:hover, button.btn.btn-primary:hover, button.button_down:hover, div#ajax_status a:hover, button.btn.btn-outline-success:hover, button.navbar-toggler:hover {
+    background: #000000 !important;
+    color: #ffffff !important;
+}
+
+.userphoto_selected img.img-thumbnail {
+    outline: 3px solid #8e6b30;
+}
+
+
+/*---СТРЕЛКА ОБРАТНО В ДНЕВНИК---*/
+
+.card-body:has(li.p-1.left_menu_edit_link) li.p-1.left_menu_blog_link a {
+    opacity: 1;
+}
+
+
+.card-body:has(li.p-1.left_menu_edit_link) li.p-1.left_menu_blog_link a:before {
+    font-family: 'cappuccicons';
+    content: '\e920';
+    font-size: 20px;
+}
+
+.card-body:has(li.p-1.left_menu_edit_link) li.p-1.left_menu_blog_link a {
+    opacity: 1;
+    font-size: 0px;
+    line-height: 2.5;
+}
+
+li.page-item:only-child a:before {
+    content: '\e921' !important;
+}
+
+
+
+
+/*----MODAL----*/
+.modal-content {
+    url(https://i.ibb.co/w7FtJLd/image.png) fixed;
+    border-radius: 5px;
+    border: unset;
+}
+
+.modal-header,
+.modal-footer {
+    border: unset;
+}
+
+.top_header {
+    box-shadow: 0 0 7px #54535130 !important;
+}
+
+span#notify_total, [onclick="$('menu_main_dropdown').style.display = ( $('menu_main_dropdown').style.display=='none' ? 'inline' : 'none' ); this.blur(); return false;"] {
+    box-shadow: 0 0 3px #d1a369;
+}
+
+blockquote.blockquote {
+    color: #ffffff;
+    border-color: #b1b1b1;
+}
+
+/*------------------------------МЕДИА----------------------------*/
+
+/*------------------------------МЕДИА----------------------------*/
+
+/*------------------------------МЕДИА----------------------------*/
+
+
+@media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
+.card.mb-2.post_home {
+    padding: 10px;
+}
+  
+.seBlogComments {
+    padding: 10px;
+    padding-bottom: 50px;
+}
+
+body {
+    background: url(https://i.ibb.co/28QK3pT/garden-bw.png) no-repeat bottom left / cover fixed, url(https://i.ibb.co/w7FtJLd/image.png) fixed;
+    background-color: #fbfbfb;
+}
+
+div#righthome {
+    border-radius: 5px;
+}
+h6.card-subtitle.mb-2.text-muted.post_date {
+    margin-top: 20px;
+}
+h2.card-title {
+    text-align: left;
+}
+.seBlogColumnRightPadding {
+    background: #fbfbfb url(https://i.ibb.co/w7FtJLd/image.png);
+}
+.card.mt-3.blog_leftmenu li.p-1 a {
+    opacity: 1;
+}
+.card.mt-3.blog_leftmenu li.p-1 {
+    display: block;
+}
+  
+/*----ПРИНЦИП ПОЗИЦИОНИРОВАНИЯ ПЛИТОК----*/
+
+.card.mt-3.blog_leftmenu .card-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gifts-list {
+    padding: 15px;
+}
+ul.pagination.justify-content-end.float-right {
+    right: 15px;
+    bottom: 5px;
+}
+  div#designs {
+    left: 15px;
+}
+.seBlogColumnRightPadding {
+    box-shadow: 0 0 11px #8a8a8a;
+    border-radius: 5px;
+}
+div#mobile_menu {
+    z-index: 3333333;
+}
+
+div#righthome {
+    box-shadow: 0 0 11px #8a8a8a;
+} 
+ 
+/*-----МИНИ ШАПКА В МЕНЮ-------*/
+  
+
+div#mobile_photo1 img {
+    display: none;
+}
+div#mobile_photo1 {
+    background: url(https://i.ibb.co/28QK3pT/garden-bw.png) no-repeat center bottom;
+    background-size: cover;
+    background-color: #000000;
+    height: 85px;
+}
+div#mobile_photo1+div {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+a.page-link,div#designs {
+    box-shadow: 0 0 5px #7c7c7c63;
+}
+ul.seBlogCategoryList {
+    text-align: center;
+}
+div#designs {
+    background-color: #7c7c7c;
+    border: unset;
+    opacity: 0.8;
+}
+.card.mt-3.blog_leftmenu li.p-1 a {
+    backdrop-filter: unset;
+    background: #2e2e2ee8;
+}
+span#notify_total {
+    background: #7a6f51;
+    min-width: 20px;
+    box-shadow: unset;
+}
+}
+
+
+
+/*-----НОВОЕ И ОБЩЕЕ ДЛЯ ВСЕХ-----*/
+
+
+a#attach_file_click, [onclick^="subscribe"]:before,
+div#bbcode [src^="/images/bbcode/"]{
+    filter: invert(1) brightness(0.3);
+}
+
+div#bbcode [src^="/images/bbcode/"] {
+    background: transparent;
+}
+
+
+.blog_leftsearch input[type="text"] {
+    border-radius: 5px;
+    line-height: 2;
+    background: #2e2e2e;
+    width: 100%;
+}
+
+.blog_leftsearch {
+    display: block;
+}
+
+input[type="text"]::placeholder {
+    color: #b1b1b1;
+}
+
+
+/*-----ФИКС ДЛЯ СТИКЕРОВ ПОЛЬЗОВАТЕЛЯ-----*/
+
+[alt="FFFUUU Смайлы"][src="/images/fffuuusmiles/fair.gif"] {
+    content: '' !important;
+    background: url(https://tgram.ru/wiki/stickers/img/ToadArtstriks/png/39.png) no-repeat center / 30px;
+    width: 20px !important;
+    height: 20px !important;
+    padding: 10px !important;
+}
+
+#fffuuusmiles img {
+    width: 73px !important;
+}
+
+/*-----СТИКЕРЫ ПОЛЬЗОВАТЕЛЯ------*/
+
