@@ -945,12 +945,12 @@ div#bbcode {
     filter: saturate(1) drop-shadow(-5px 5px 0px #ffffff10);
     transition: .3s;
 }
-.post_container .post_text img {
+.post_container  {
     filter: saturate(0.4);
     transition: .3s;
 }
     
-.post_container .post_text img:hover {
+.post_container:hover {
     filter: saturate(1);
     transition: .3s;
 }
