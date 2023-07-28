@@ -313,7 +313,7 @@ li.page-item+li.page-item a:before {
 
 
 .list-users-home.pt-2+.pt-2 button.btn.btn-primary.btn-block:hover, a.nav-item.nav-link.active:hover, .card [onclick="$('#profile_viewers').toggle();"]:hover, a.page-link:hover, button.btn.btn-primary:hover, button.button_down:hover, div#ajax_status a:hover, button.btn.btn-outline-success:hover, button.navbar-toggler:hover {
-    background: #000000 !important;
+    background: #2828286b !important;
     color: #ffffff !important;
 }
 
@@ -365,7 +365,7 @@ li.page-item:only-child a:before {
 }
 
 span#notify_total, [onclick="$('menu_main_dropdown').style.display = ( $('menu_main_dropdown').style.display=='none' ? 'inline' : 'none' ); this.blur(); return false;"] {
-    box-shadow: 0 0 3px #d1a369;
+    box-shadow: 0 0 3px #ffffff;
 }
 
 blockquote.blockquote {
