@@ -501,7 +501,7 @@ div#bbcode [src^="/images/bbcode/"] {
 .blog_leftsearch input[type="text"] {
     border-radius: 5px;
     line-height: 2;
-    background: #2e2e2e;
+    background: #2828286b;
     width: 100%;
 }
 
