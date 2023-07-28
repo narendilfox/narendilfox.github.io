@@ -954,6 +954,16 @@ div#bbcode {
     filter: saturate(1);
     transition: .3s;
 }
+
+.gifts-list {
+    filter: saturate(0.4);
+    transition: .3s;
+}
+.gifts-list:hover {
+    filter: saturate(1);
+    transition: .3s;
+}
+/*----------------------------*/
 /*стикеры*/
 div#bbcode img.fl_l {
     width: 17.5px !important;
