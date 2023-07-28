@@ -502,14 +502,14 @@ div#menu_main_dropdown>div {
 }
 
 button#newupdates, button.btn.btn-primary, button.button_down {
-    background:  #2828286b !important;
+    background:  transparent !important;
     position: absolute;
     bottom: 20px;
     right: 20px;
     width: 35px;
     height: 35px;
     font-family: 'cappuccicons';
-    color: #180207;
+    color: #ffffff;
     text-align: center;
     text-decoration: unset !important;
     border-radius: 0px;
