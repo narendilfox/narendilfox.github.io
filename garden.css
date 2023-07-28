@@ -518,12 +518,12 @@ button#newupdates, button.btn.btn-primary, button.button_down {
 
 [src="/images/notify.svg"] {
     width: 25px;
-    filter: invert(1) sepia(1) brightness(0.4) saturate(9) hue-rotate(-15deg);
+    filter: invert(1) ;
 }
 
-[src="/images/button_down.svg"]{
+/*[src="/images/button_down.svg"]{
     filter: sepia(1) brightness(0.4) saturate(9) hue-rotate(-15deg);
-}
+}*/
 
 button.btn.btn-primary {
     right: 80px;
