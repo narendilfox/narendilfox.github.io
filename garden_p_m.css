@@ -1,0 +1,105 @@
+@import url('https://narendilfox.github.io/garden_mob.css');
+
+td.profile_photo,td.header, .page_header,td.profile,.profile_content,div.profile_action,
+.browse_friends_result,.profile_blogentry,.profile_blogentry+div {
+    border: unset !important;
+}
+
+td.profile_rightside a:hover,
+td.profile_leftside a:hover {
+    color: #75571b !important;
+}
+
+td.profile_tab2 a:hover, td.profile_tab a:hover {
+    background: #282828 !important;
+    color: #b1b1b1 !important;
+}
+
+
+td.profile_tab2 a,
+td.profile_menu1 a, div.nolink {
+    background: #2828286b!important;
+    color: #b1b1b1;
+}
+
+
+
+td.profile_tab a {
+    background: #fbfbfb !important;
+    color: #b1b1b1 !important;
+}
+
+.gifts-list {
+    font-size: 14px;
+}
+
+[src="/images/verify.png"] {
+    width: 16px !important;
+}
+
+.gifts-list {
+    margin: 0px;
+}
+
+.gifts-list {
+    background: transparent;
+}
+
+
+td.profile_photo img {
+    border-radius: 5px;
+}
+
+/*------------------------------МЕДИА----------------------------*/
+
+/*------------------------------МЕДИА----------------------------*/
+
+/*------------------------------МЕДИА----------------------------*/
+
+
+@media (max-width: 280px), (max-width: 480px), (max-width: 768px) {
+td.profile_leftside {
+    padding: 10px !important;
+    border-radius: 5px;
+}
+td.profile_leftside {
+    background: #fbfbfb url(https://i.ibb.co/w7FtJLd/image.png) fixed;
+    padding: 0px;
+    max-width: 750px;
+    margin-left: unset !important;
+    margin-right: auto !important;
+}
+  
+/*-----ИЗМЕНЕНИЕ КНОПОК В МОБИЛЬНОЙ ВЕРСИИ------*/
+
+script+[cellpadding="0"] tbody tr {
+    display: flex;
+    flex-direction: column;
+}
+
+td.profile_tab a, td.profile_tab2 a {
+    margin: 0px !important;
+    margin-bottom: 10px !important;
+    box-shadow: 0 0 6px #b1b1b18a;
+}
+
+td.profile_tab2 a {
+    margin-bottom: 10px !important;
+}
+
+td#profile_tabs_comments a {
+    font-size: 14px;
+}
+
+td#profile_tabs_comments a:before {
+    content: '';
+}
+  td.profile_tab2 a:hover, td.profile_tab a:hover {
+    padding: 4px !important;
+}
+span#notify_total {
+    background: #b1b1b1;
+    min-width: 20px;
+    box-shadow: unset;
+}
+}
