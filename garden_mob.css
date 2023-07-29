@@ -103,6 +103,7 @@ audio::-webkit-media-controls-time-remaining-display {
 textarea#comment_body {
     background:  #2828286b;
     border: 1px solid #d4cdcd;
+    color: #b1b1b1;
 }
 
 input#comment_submit,button.btn.btn-secondary, div#mobile_menu button.btn.btn-primary {
