@@ -923,7 +923,7 @@ a.page-link:hover {
 
 div#designs {
     box-shadow: 0 0 3px #ffffff;
-    background-color: #806024;
+    background-color: #88888861!important;
 }
 li.page-item:only-child a:before {
     content: '\e921' !important;
