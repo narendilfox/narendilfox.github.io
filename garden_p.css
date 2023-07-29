@@ -28,7 +28,7 @@ img.icon {
 }
 
 td.profile_rightside {
-    background: #fbfbfb url(https://www.transparenttextures.com/patterns/arches.png) fixed;
+    background: #fbfbfb url(https://i.ibb.co/w7FtJLd/image.png) fixed!important;
     padding: 0px;
     max-width: 750px;
     margin-left: unset !important;
@@ -43,12 +43,12 @@ td.profile_rightside {
 
 td.profile_rightside a:hover,
 td.profile_leftside a:hover {
-    color: #75571b !important;
+    color: #ffffff !important;
 }
 
 td.profile_tab2 a:hover, td.profile_tab a:hover {
-    background: #836c32 !important;
-    color: #fbfbfb !important;
+    background: #282828 !important;
+    color: #b1b1b1 !important;
 }
 
 
