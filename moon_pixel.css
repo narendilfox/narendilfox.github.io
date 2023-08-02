@@ -673,7 +673,7 @@ div.menu_dropdown {
 button.button_down:hover, button.btn.btn-primary:hover{
     background: #ffffff00 !important;}
 button.btn.btn-primary:before {
-    content: '\\ebaf';
+    content: '\ebaf';
     color: #ffffff;
     font-size: 25px;
 }
