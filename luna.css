@@ -58,7 +58,7 @@ body {background-image: url(https://i.ibb.co/Jz00TWk/image.gif); background-size
     border-radius: 3px;
 }
 
-div.menu_dropdown {border: 4px double #5d6685 !important;}
+div.menu_dropdown {border: 4px double #5d668500 !important;}
 div.menu_dropdown a {background: #f6f6f6 !important;}
 
 img.photo {border-radius: 3px;}
