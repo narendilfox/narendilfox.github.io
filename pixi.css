@@ -657,6 +657,10 @@ element.style {
 font-size: 16px;
 }
 /*-------------Настроечки---------------*/
+button.button_down {
+    padding-left: 0px !important;
+    padding-right: 25px !important;
+}
 
 div.menu_dropdown {
     padding: 0px!important; }
