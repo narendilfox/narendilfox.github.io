@@ -927,7 +927,7 @@ div[id^="comment_"] > div > div:first-child {
 
 .profile_comment_author a {
     color: rgb(204, 153, 204) !important;
-    background-color: rgb(64 191 128)!important;
+    background-color: rgb(86, 68, 150)!important;
     padding: 0 5px 0 0;
     border: none;
     transition: .5s;
