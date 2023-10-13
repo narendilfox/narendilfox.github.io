@@ -69,7 +69,7 @@ div#smoothbox_container {
     border-bottom: 1px solid rgb(30,30,30) !important;
 }
 div#smoothbox_container:before {
-    content: 'Это всё, что останется после меня' !important;
+    content: 'Смерть - это лишь начало пути...' !important;
    background-color: rgba(12,12,12,.5) !important;
     color: rgb(55,55,55) !important;
     font-size: .825vw !important;
@@ -93,7 +93,7 @@ div#smoothbox_container:before {
 }
 
 div#smoothbox_container:after {
-    content: 'Elf' !important;
+    content: 'Эри' !important;
     background-color: rgb(55,55,55) !important;
 background-color: #87491f !important;
    background-image: url(https://i.ibb.co/TH18ByS/link.gif) !important;
