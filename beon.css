@@ -1613,7 +1613,7 @@ a { background-image: url(https://i.ibb.co/TH18ByS/link.gif); background-size: c
 .show_menu.header-orange {
     background: #1e1e1e !important; }
 /*фильтр на авки*/
-.post_image a img {  filter: saturate(0.5) brightness(0.5) contrast(0.95); transition: .75s !important;  }
+/*.post_image a img {  filter: saturate(0.5) brightness(0.5) contrast(0.95); transition: .75s !important;  }*/
 .post_image a img:hover {  filter: none; transition: .75s !important; }
 /*контейнер аудио*/
 .container_music audio { filter: brightness(0.2); }
