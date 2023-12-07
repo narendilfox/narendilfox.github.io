@@ -840,7 +840,7 @@ input[name="blog_search"]:focus {
 }
 textarea#comment_body {     border-color: #101010; }
 .post_text.pl-3 a, .additional_info.pl-3 a, /* .profile_comment_body a*/, .copyright_text a { /*ЧЕКНУТЬ*/
-    filter: grayscale(1) brightness(1.355); filter: none !important;
+   /* filter: grayscale(1) brightness(1.355); filter: none !important;*/
     background-color: rgb(55,55,55);
     background-image: url(https://i.ibb.co/TH18ByS/link.gif);
     background-size: cover;
@@ -996,7 +996,7 @@ div[id^="comment_"] > div > div:first-child {
 }
 
 .profile_comment_author a:hover img {
-    filter: saturate(0) brightness(0.6) contrast(0.9); filter: saturate(0) brightness(0.5) contrast(0.9) !important;
+   /* filter: saturate(0) brightness(0.6) contrast(0.9); filter: saturate(0) brightness(0.5) contrast(0.9) !important;*/
     transition: .5s;
 }
 
@@ -1573,20 +1573,20 @@ input[class="form-control"]:-ms-input-placeholder {color: rgb(75,75,75); color: 
 */
 /*Ч / Б _ И З О Б Р А Ж Е Н И Я*/
 div[id^="comment_"] > div > div:first-child > a > img /*аватары в комментариях*/ {
-    filter: saturate(0.5) brightness(0.5) contrast(0.95) !important;
+   /* filter: saturate(0.5) brightness(0.5) contrast(0.95) !important;*/
     transition: .75s;
 }
 .post_text.pl-3 img /*изображения в постах*/,
 .post_text.pl-3 iframe /*видео в постах*/,
 .profile_comment_body img /*изображения в комментариях*/ {
-    filter: saturate(0) brightness(0.5) contrast(0.95) !important;
+ /*   filter: saturate(0) brightness(0.5) contrast(0.95) !important;*/
     transition: .75s;
 }
 div[id^="comment_"] > div > div:first-child > a > img:hover,
 .post_text.pl-3 img:hover,
 .post_text.pl-3 iframe:hover,
 .profile_comment_body img:hover {
-    filter: saturate(1) brightness(1) contrast(1) !important;
+ /*   filter: saturate(1) brightness(1) contrast(1) !important;*/
     transition: 1s;
 }
 
