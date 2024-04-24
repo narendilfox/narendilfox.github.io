@@ -1345,7 +1345,7 @@ div[style="padding: 10px; text-align: center; margin-top: 10px;"] > button[style
 
 /*M O D A L*/
 
-.modal-dialog {  margin: 5px; }
+/*.modal-dialog {  margin: 5px; } */
 
 .modal-content {
     border-top: 1px solid rgb(221, 221, 221) !important;
