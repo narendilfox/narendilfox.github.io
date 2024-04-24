@@ -1513,3 +1513,13 @@ content: 'Лунышко ❤';
 position: relative;
 }
 
+/*мобайл кнопка вниз*/
+@media (max-width: 280px), (max-width: 480px), (max-width: 768px)
+button.btn.btn-outline-success:before {
+    content: '';
+    width: 40px;
+    height: 38px;
+    display: block;
+    background: none;
+    opacity: 0.3;
+}
