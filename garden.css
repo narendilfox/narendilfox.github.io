@@ -47,7 +47,7 @@ a:hover {
 /*----------------*/
 
 body {
-    background: url(https://i.ibb.co/XYpd9zt/masks2.png) no-repeat left -4% center / contain fixed, url(https://i.ibb.co/w7FtJLd/image.png) fixed;
+    background: url(https://i.ibb.co/zrgrrkp/mirror.png) no-repeat left -4% center / contain fixed, url(https://i.ibb.co/w7FtJLd/image.png) fixed;
     background-color:  #2828286b;
 }
 
@@ -140,7 +140,7 @@ li.p-1 {
     flex-wrap: wrap;
 }
 .card.mt-3.blog_leftmenu li.p-1 {
-    background: url(https://i.ibb.co/XYpd9zt/masks2.png) fixed;
+    background: url(https://i.ibb.co/zrgrrkp/mirror.png) fixed;
     background-size: 425px;
     width: 74px;
     height: 74px;
