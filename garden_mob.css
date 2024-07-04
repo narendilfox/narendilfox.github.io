@@ -47,7 +47,7 @@ a:hover {
 
 
 body1 {
-    background: url(https://i.ibb.co/16y5VHR/kira-p.png) no-repeat left -4% center / contain fixed, url(https://i.ibb.co/w7FtJLd/image.png) fixed;
+    background: url(https://i.ibb.co/25fzLZb/light.png) no-repeat left -4% center / contain fixed, url(https://i.ibb.co/w7FtJLd/image.png) fixed;
     background-color:  #2828286b;
 }
 
@@ -126,7 +126,7 @@ input#comment_submit:hover,button.btn.btn-secondary:hover, div#mobile_menu butto
 }
 
 .card.mt-3.blog_leftmenu li.p-1 {
-    background: url(https://i.ibb.co/16y5VHR/kira-p.png) fixed;
+    background: url(https://i.ibb.co/25fzLZb/light.png) fixed;
     background-size: 425px;
     width: 74px;
     height: 74px;
@@ -393,7 +393,7 @@ blockquote.blockquote {
 }
 
 body {
-    background: url(https://i.ibb.co/16y5VHR/kira-p.png) no-repeat bottom left / cover fixed, url(https://i.ibb.co/w7FtJLd/image.png) fixed;
+    background: url(https://i.ibb.co/25fzLZb/light.png) no-repeat bottom left / cover fixed, url(https://i.ibb.co/w7FtJLd/image.png) fixed;
     background-color: #fbfbfb;
 }
 
@@ -453,7 +453,7 @@ div#mobile_photo1 img {
     display: none;
 }
 div#mobile_photo1 {
-    background: url(https://i.ibb.co/16y5VHR/kira-p.png) no-repeat center bottom;
+    background: url(https://i.ibb.co/25fzLZb/light.png) no-repeat center bottom;
     background-size: cover;
     background-color: #000000;
     height: 85px;
