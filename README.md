@@ -4,8 +4,5 @@
 <body style="display:;">
 <h1>*SLAP*</h1>
 <p>I'm dumb.</p>
-  <style>
-    @import url("noise.css");
-  </style>
 </body>
 </html>
